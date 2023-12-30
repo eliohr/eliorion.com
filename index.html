@@ -29,9 +29,15 @@
         </script>
     </head>
 
-<audio autoplay>
-      <source src="peaceful-guitar-ambience.mp3">
-</audio>
+<video src="peaceful-guitar-ambience.mp4" id="video" muted autoplay>
+
+<button id="unmuteButton">hear</button>
+
+<script>
+  unmuteButton.addEventListener('click', function() {
+    video.muted = false;
+  });
+</script>
     
     <a href="https://open.spotify.com/playlist/4j69lQ1CjvBO71O9H5LvRo" target="_blank">
         <img src="poprockcity_leaves.jpg" width="100%" />
