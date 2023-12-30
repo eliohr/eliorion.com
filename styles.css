@@ -8,12 +8,6 @@ body {
     gap: 2vw;
 }
 
-.unmuteButton {
-    width: 100%;
-    text-align: center;
-    text-spacing: 100px;
-}
-
 .social-links a {
     color: black;
     background-color: white;
