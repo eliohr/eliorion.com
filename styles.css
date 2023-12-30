@@ -14,10 +14,6 @@ body {
     text-spacing: 100px;
 }
 
-.video {
-    visibility: hidden;
-}
-
 .social-links a {
     color: black;
     background-color: white;
