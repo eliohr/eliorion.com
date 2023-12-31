@@ -27,21 +27,24 @@
         Your browser does not support the audio element.
     </audio>
     
-    <a href="https://open.spotify.com/playlist/4j69lQ1CjvBO71O9H5LvRo" target="_blank">
+    <a id="poprockcity" href="https://open.spotify.com/playlist/4j69lQ1CjvBO71O9H5LvRo" target="_blank">
         <img src="poprockcity_leaves.jpg" width="100%" />
         </style>
     </a>
     
-<script>
-    window.onload = function() {
-        var middleOfDocument = window.innerHeight * 0.35;
-        
-        window.scrollTo({
-            top: middleOfDocument,
-            behavior: 'smooth'
-        });
-    }
-</script>
+    <script>
+        window.onload = function() {
+            var targetElement = document.getElementById('poprockcity');
+            
+            // Calculate the target position
+            var targetPosition = targetElement.offsetTop + targetElement.offsetHeight - window.innerHeight + 5;
+            
+            window.scrollTo({
+                top: targetPosition,
+                behavior: 'smooth'
+            });
+        }
+    </script>
     
     <!--
         <div class="presave">
