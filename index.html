@@ -37,11 +37,13 @@
             var targetElement = document.getElementById('poprockcity');
             
             // Calculate the target position
-            var targetPosition = targetElement.offsetTop + targetElement.offsetHeight - window.innerHeight + 5;
-            
+            var targetPosition = targetElement.offsetTop + targetElement.offsetHeight - window.innerHeight + 30;
+
             window.scrollTo({
-                top: targetPosition,
-                behavior: 'smooth'
+                    top: targetPosition,
+                    behavior: 'smooth'
+                });
+            }, 1000); 
             });
         }
     </script>
