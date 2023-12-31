@@ -7,7 +7,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/x-icon" href="runner.png">
+    
+    <link id="favicon" rel="icon" type="image/x-icon" src="runner-circle.png">
+
+    <script>
+        while(true) {
+            
+            setTimeout(function timer() {
+                document.getElementById("favicon") = function() {
+                    this.src = "runner-circle.png";
+                }
+            }, i*1000 );
+
+            setTimeout(function timer() {
+                document.getElementById("favicon") = function() {
+                    this.src = "paper-airplane-circle.png";
+                }
+            }, i*1000 );
+
+            setTimeout(function timer() {
+                document.getElementById("favicon") = function() {
+                    this.src = "paper-airplane-circle.png";
+                }
+            }, i*1000 );
+            
+        }
+    </script>
 
     <script id="mcjs">
         !function(c,h,i,m,p){
