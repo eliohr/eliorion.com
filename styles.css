@@ -55,7 +55,7 @@ body {
 }
 
 #video-container iframe {
-    width: 650px; /* Adjust the width as needed */
+    width: 300px; /* Adjust the width as needed */
     height: 300px; /* Adjust the height as needed */
 }
 
