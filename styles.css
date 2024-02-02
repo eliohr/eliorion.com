@@ -50,23 +50,22 @@ body {
 
 #video-container {
     text-align: center;
+    display: block;
+    margin: auto;
 }
 
 #main-image {
     width: 30%;
     margin: auto;
     margin-bottom: 0;
+    width: 40vw;
+    min-width: 220px;
 }
 
 #main-video {
-    width: 30%;
+    width: 50%;
     margin: auto;
     margin-bottom: 0;
-}
-
-#main-image {
-    width: 40vw;
-    min-width: 220px;
 }
 
 .spacer {
