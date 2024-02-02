@@ -48,7 +48,17 @@ body {
     text-align: center;
 }
 
+#video-container {
+    text-align: center;
+}
+
 #main-image {
+    width: 30%;
+    margin: auto;
+    margin-bottom: 0;
+}
+
+#main-video {
     width: 30%;
     margin: auto;
     margin-bottom: 0;
