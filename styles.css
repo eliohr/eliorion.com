@@ -49,9 +49,10 @@ body {
 }
 
 #video-container {
-    text-align: center;
-    display: block;
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set height to 100% of the viewport height for vertical centering */
 }
 
 #main-image {
