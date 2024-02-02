@@ -55,6 +55,11 @@ body {
     height: 150vh; /* Set height to 100% of the viewport height for vertical centering */
 }
 
+#video-container iframe {
+    width: 560px; /* Adjust the width as needed */
+    height: 560px; /* Adjust the height as needed */
+}
+
 #main-image {
     width: 30%;
     margin: auto;
