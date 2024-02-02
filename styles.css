@@ -56,8 +56,8 @@ body {
 }
 
 #video-container iframe {
-    width: 560px; /* Adjust the width as needed */
-    height: 560px; /* Adjust the height as needed */
+    width: 650px; /* Adjust the width as needed */
+    height: 650px; /* Adjust the height as needed */
 }
 
 #main-image {
