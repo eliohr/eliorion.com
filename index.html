@@ -4,10 +4,11 @@
 
 <head>
     <title>Eli Orion</title>
+    <meta name="description" content="WELCOME TO POP ROCK CITY">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" href="question-fav.png">
+    <link rel="shortcut icon" href="%3F1.jpg">
     
     <script id="mcjs">
         !function(c,h,i,m,p){
@@ -25,16 +26,54 @@
     <audio autoplay loop>
         <source src="peaceful-guitar-ambience.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const audio = document.querySelector('audio');
+            const bandcampEmbed = document.querySelector('iframe[src*="bandcamp"]');
+            
+            bandcampEmbed.addEventListener('mouseover', function() {
+                audio.pause();
+            });
+
+        });
+    </script>
     </audio>
     
-    <a id="poprockcity" href="https://open.spotify.com/playlist/4j69lQ1CjvBO71O9H5LvRo" target="_blank">
-        <img src="poprockcity_leaves.jpg" width="100%" />
-        </style>
-    </a>
-    
-        <div class="presave">
-            <a href="https://distrokid.com/hyperfollow/eliorion/diesel-im-alive">PRE-SAVE DIESEL</a>
+
+<div class="div-with-background">
+    <div class="top">
+        <div class="social-links">
+            <a href="https://eliorion.bandcamp.com" target="_blank">bandcamp</a>
+            <a href="https://www.youtube.com/@eliorion" target="_blank">youtube</a>
+            <a href="https://mailchi.mp/b9851fac2fc5/eli-orion" target="_blank">mailing list</a>
+            <a href="https://open.spotify.com/artist/6NLvoDEJwXQj6k8nxniIit" target="_blank">spotify</a>
+            <a href="https://www.instagram.com/eli.0rion" target="_blank">instagram</a>
+            <a href="https://www.tiktok.com/@eli_orion" target="_blank">tiktok</a>
+            <a href="https://www.soundcloud.com/eohr" target="_blank">soundcloud</a>
         </div>
+        <div class="logo-name" style="padding: 1.5vw;"">
+            <a href="https://open.spotify.com/playlist/4j69lQ1CjvBO71O9H5LvRo" target="_blank">
+                <img src="eli-orion-logo-everything.png" alt="logo" id="website-logo" />
+            </a>
+        </div>
+    </div>
+
+    <div class="top-spacer">
+    </div>
+
+    <div class="pre-save" style:"text-decoration: none">
+        <a class="pre-save" style="text-decoration: none;" href="https://distrokid.com/hyperfollow/eliorion/diesel-im-alive">PRE-SAVE DIESEL</a>
+    </div>
+
+    <div style="height: 10px"></div>
+
+</div>
+
+
+
+
+    
+        
 
         <!--
         <div class="presave">
@@ -42,22 +81,27 @@
         </div>
         -->
     
-    <!--
+   
     <div class="spacer">
-    </div> <!-- remove spacer when presave on -->
-        
-    <!-- <div id="image-container">
-        <a href="peaceful-guitar-ambience.mp3">
-            <img src="vest.jpg" alt="eli donning a vest" id="main-image">
-        </a>
-    </div> -->
+   </div>
 
-    <div id="video-container">
-        <iframe width="300" height="300" align=center src="https://www.youtube.com/embed/3Jg7dCvEaeU?si=QBwAGQ8wkwzKDx6b"
-            title="Everything"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
+    <div class="generation-container">
+        <div class="generation-item" id="video-container">
+            <iframe class="main-three" align=center src="https://www.youtube.com/embed/3Jg7dCvEaeU?si=QBwAGQ8wkwzKDx6b"
+                title="Everything"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+        <div class="generation-item" id="image-container">
+            <a href="peaceful-guitar-ambience.mp3">
+                <img id="main-image" class="main-three" src="vest.jpg" alt="eli donning a vest" />
+            </a>
+        </div>
+        <div class="generation-item">
+            <iframe class="main-three" style="border: 0;" src="https://bandcamp.com/EmbeddedPlayer/album=3627582495/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://eliorion.bandcamp.com/album/two-sets-for-christmas">Two sets for Christmas by Tim Reese and Eli Hooker Reese</a></iframe>            
+            
+        </div>
     </div>
 
     <script>
@@ -68,30 +112,6 @@
             this.src = "vest.jpg";
         }
     </script>
-
-<div class="spacer">
-</div>
-
-    <div class="social-links">
-        <a href="https://open.spotify.com/artist/6NLvoDEJwXQj6k8nxniIit" target="_blank">spotify</a>
-        <a href="https://www.instagram.com/eli.0rion" target="_blank">instagram</a>
-        <a href="https://www.youtube.com/@eliorion" target="_blank">youtube</a>
-        <a href="https://www.tiktok.com/@eli_orion" target="_blank">tiktok</a>
-        <a href="https://www.soundcloud.com/eohr" target="_blank">soundcloud</a>
-        <a href="https://eliorion.bandcamp.com" target="_blank">bandcamp</a>
-        <a href="https://mailchi.mp/b9851fac2fc5/eli-orion" target="_blank">mailing list</a>
-    </div>
-
-    <div class="spacer">
-    </div>
-
-    <!--
-    <div class="image-divider">
-        <img src="?1.jpg" alt="?">
-        <img src="?2.jpg" alt="?">
-        <img src="?3.jpg" alt="?">
-    </div>
-    -->
     
     <div class="spacer">
     </div>
@@ -99,7 +119,7 @@
     </body>
 
     <footer>
-        <p>thanks for coming! see u soon :)</p>
+        <a href="https://eliorion.blogspot.com" style="letter-spacing: 5px; text-decoration: none; color: inherit;">thanks for coming! see u soon :)</a>
     </footer>
     
     </html>

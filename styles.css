@@ -1,51 +1,86 @@
 body {
-    background-color: #000000;
+    background-color: black;
+    margin: 0;
 }
 
 .social-links {
     display: flex;
     justify-content: center;
-    gap: 2vw;
+    gap: 1.5vw;
+    justify-self: left;
 }
 
-.image-divider {
-            display: flex;
-            overflow: hidden; /* To prevent the images from overflowing the container */
-        }
-
-        .image-divider img {
-            width: 100%; /* Make sure the images take 100% of the container width */
-            height: auto; /* Maintain the aspect ratio of the images */
-            object-fit: cover; /* Cover the container with the images */
-        }
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 7vw;
+    max-height: 10vw;
+}
 
 .social-links a {
-    color: black;
-    background-color: white;
-    padding: 2vw;
+    color: white;
+    padding: 1.5vw;
     text-decoration: none;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.div-with-background {
+    width: 100%;
+    max-width: 100%;
+    
+    background-image: url('eli-orion-lay-log.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    background-position: center top -12vw;
+}
+
+.pre-save {
+    text-decoration: none;
+    font-style: italic;
+    font-size: 3vw;
+    font-family: Helvetica Neue;
+    text-align: center;
+    letter-spacing: 3vw;
+    margin: 10px;
+    text-align: center;
+    color: white;
+}
+
+.main-three {
+    width: 20vw;
+    height: 20vw;
+}
+
+.generation-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2vw;
+    margin: 2vw;
+}
+
+.generation-item {
+    margin: 2vw;
+    padding: 2vw;
     text-align: center;
     font-size: 2vw;
 }
 
-.presave {
-    font-weight: thin;
-    font-style: italic;
-    font-size: 20px;
-    font-family: Helvetica;
-    text-align: center;
-    letter-spacing: 20px;
-    margin: 50px 0;
-}
-
-.presave a {
-    text-decoration: none;
-    color: white;
-    padding: 20px;
+#website-logo {
+    max-width: 300px;
+    width: 15vw;
+    max-height: 15vw;
+    justify-self: right;
 }
 
 #image-container {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #video-container {
@@ -55,26 +90,20 @@ body {
 }
 
 #video-container iframe {
-    width: 300px; /* Adjust the width as needed */
-    height: 300px; /* Adjust the height as needed */
-}
-
-#main-image {
-    width: 30%;
-    margin: auto;
-    margin-bottom: 0;
-    width: 40vw;
-    min-width: 220px;
-}
-
-#main-video {
-    width: 20%;
-    margin: auto;
-    margin-bottom: 0;
+    width: 20vw; /* Adjust the width as needed */
+    height: 20vw; /* Adjust the height as needed */
 }
 
 .spacer {
     height: 50px;
+}
+
+.small-spacer {
+    height: 10px;
+}
+
+.top-spacer {
+    height: 30vw;
 }
 
 footer {
