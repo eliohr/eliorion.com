@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 400px) {
 
     .top-mobile {
         display: flex;
@@ -138,7 +138,7 @@ body {
 
 }
 
-@media (min-width: 601px) {
+@media (min-width: 401px) {
 
     .social-links-mobile {
         display: none;
