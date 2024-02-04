@@ -3,107 +3,265 @@ body {
     margin: 0;
 }
 
-.social-links {
-    display: flex;
-    justify-content: center;
-    gap: 1.5vw;
-    justify-self: left;
-}
+@media (max-width: 999px) {
 
-.top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    height: 7vw;
-    max-height: 10vw;
-}
+    .top-mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: top;
+        height: 30vw;
+    }
 
-.social-links a {
-    color: white;
-    padding: 1.5vw;
-    text-decoration: none;
-    text-align: center;
-    font-size: 1.5vw;
-}
-
-.div-with-background {
-    width: 100%;
-    max-width: 100%;
+    .about {
+        color: white;
+        margin-left: 50px;
+        margin-right: 50px;
+        justify-content: left;
+        font-family: "Helvetica Neue", sans-serif;
+        font-weight: 200;
+    }
     
-    background-image: url('eli-orion-lay-log.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 0;
-    background-position: center top -12vw;
+    .social-links-mobile {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 2vw;
+        /* width: 60vw; */
+        height: 1em;
+        margin: 10px;
+    }
+
+    .social-links-mobile a {
+        color: black;
+        background-color: white;
+        font-size: 5vw;
+        display: flex;
+        align-items: right;
+        justify-content: right;
+        text-decoration: none;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        mix-blend-mode: screen;
+        padding: 1vw;
+        text-decoration: none;
+    }
+
+    .top {
+        display: none;
+    }
+
+    #website-logo {
+
+        display: none;
+        /* width: 40vw;
+        height: 100%;
+        margin: 10px; */
+    }
+
+    .top-spacer {
+        height: 50vw;
+    }
+    
+    .div-with-background {
+        width: 100%;
+        max-width: 100%;
+    
+        background-image: url('eli-orion-lay-log-vertical.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0;
+        background-position: center top -35vw;
+    }
+
+    .pre-save {
+        text-decoration: none;
+        font-style: italic;
+        font-size: 10vw;
+        font-family: Helvetica Neue;
+        text-align: center;
+        letter-spacing: 3vw;
+        text-align: center;
+        color: white;
+        margin-top: 2vw; /* Add margin to the top of each generation item */
+    }
+
+    .rows-of-boxes {
+        justify-self: right;
+    }
+    
+    .main-three {
+        width: 20vw;
+        height: 20vw;
+        min-width: 200px;
+        min-height: 200px;
+        align-self: flex-start;
+    }
+    
+    .generation-container {
+        display: flex;
+        justify-content: center; /* Changed from justify-self to justify-content */
+        flex-wrap: wrap;
+        gap: 5vw;
+    }
+    
+    .generation-item {
+        padding: 2vw;
+        justify-content: center;
+    }
+    
+    #image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #video-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #video-container iframe {
+        width: 20vw; /* Adjust the width as needed */
+        height: 20vw; /* Adjust the height as needed */
+    }
+    
+    .spacer {
+        height: 50px;
+    }
+    
+    .small-spacer {
+        height: 10px;
+    }
+
 }
 
-.pre-save {
-    text-decoration: none;
-    font-style: italic;
-    font-size: 3vw;
-    font-family: Helvetica Neue;
-    text-align: center;
-    letter-spacing: 3vw;
-    margin: 10px;
-    text-align: center;
-    color: white;
-}
+@media (min-width: 1000px) {
 
-.main-three {
-    width: 20vw;
-    height: 20vw;
-}
+    .social-links-mobile {
+        display: none;
+    }
 
-.generation-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 2vw;
-    margin: 2vw;
-}
+    .social-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1.5vw;
+        justify-self: left;
+    }
 
-.generation-item {
-    margin: 2vw;
-    padding: 2vw;
-    text-align: center;
-    font-size: 2vw;
-}
+    .top-mobile {
+        display: none;
+    }
 
-#website-logo {
-    max-width: 300px;
-    width: 15vw;
-    max-height: 15vw;
-    justify-self: right;
-}
+    .top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        height: 10vw;
+    }
 
-#image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    .social-links a {
+        color: white;
+        padding: 1.5vw;
+        height: 100%;
+        text-decoration: none;
+        text-align: center;
+        font-size: 1.5vw;
+    }
 
-#video-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    #website-logo {
+        width: 20vw;
+        height: 100%;
+        justify-self: right;
+    }
 
-#video-container iframe {
-    width: 20vw; /* Adjust the width as needed */
-    height: 20vw; /* Adjust the height as needed */
-}
+    .div-with-background {
+        width: 100%;
+        max-width: 100%;
+        
+        background-image: url('eli-orion-lay-log.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0;
+        background-position: center top -12vw;
+    }
 
-.spacer {
-    height: 50px;
-}
+    .pre-save {
+        text-decoration: none;
+        font-style: italic;
+        font-size: 3vw;
+        font-family: Helvetica Neue;
+        text-align: center;
+        letter-spacing: 3vw;
+        margin: 10px;
+        text-align: center;
+        color: white;
+    }
+    
+    .main-three {
+        width: 20vw;
+        height: 20vw;
+        min-width: 100px;
+        min-height: 100px;
+        justify-self: left;
+    }
+    
+    .generation-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2vw;
+    }
+    
+    .generation-item {
+        margin: 2vw;
+        padding: 2vw;
+        text-align: center;
+        font-size: 2vw;
+    }
+    
+    #image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #video-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #video-container iframe {
+        width: 20vw; /* Adjust the width as needed */
+        height: 20vw; /* Adjust the height as needed */
+    }
+    
+    .spacer {
+        height: 50px;
+    }
+    
+    .small-spacer {
+        height: 10px;
+    }
+    
+    .top-spacer {
+        height: 30vw;
+    }
 
-.small-spacer {
-    height: 10px;
-}
+    .about {
+        color: white;
+        margin-left: 50px;
+        margin-right: 50px;
+        justify-content: left;
+        font-family: "Helvetica Neue", sans-serif;
+        font-weight: 200;
+    }
 
-.top-spacer {
-    height: 30vw;
 }
 
 footer {
