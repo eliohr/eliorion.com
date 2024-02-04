@@ -94,8 +94,8 @@ body {
     .main-three {
         width: 20vw;
         height: 20vw;
-        min-width: 200px;
-        min-height: 200px;
+        min-width: 300px;
+        min-height: 300px;
         align-self: flex-start;
     }
     
@@ -205,8 +205,8 @@ body {
     .main-three {
         width: 20vw;
         height: 20vw;
-        min-width: 100px;
-        min-height: 100px;
+        min-width: 300px;
+        min-height: 300px;
         justify-self: left;
     }
     
