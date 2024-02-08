@@ -97,6 +97,7 @@ body {
         min-width: 300px;
         min-height: 300px;
         align-self: flex-start;
+        text-align: center;
     }
     
     .generation-container {
@@ -207,7 +208,11 @@ body {
         height: 20vw;
         min-width: 300px;
         min-height: 300px;
-        justify-self: left;
+        justify-self: center;
+        align-self: flex-start;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
     
     .generation-container {
@@ -263,6 +268,42 @@ body {
     }
 
 }
+
+.listen-subtitle {
+    font-family: 'Times New Roman';
+    width: auto;
+    justify-self: center;
+    font-size: 1vw;
+    letter-spacing: 1.5vw;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.listen {
+    text-decoration: none;
+    font-style: italic;
+    font-size: 3vw;
+    font-family: Helvetica Neue;
+    text-align: center;
+    letter-spacing: 2vw;
+    text-align: center;
+    color: white;
+    margin-top: 2vw;
+}
+
+.gohome {
+    text-decoration: none;
+    font-style: italic;
+    font-size: 2vw;
+    font-family: Helvetica Neue;
+    text-align: center;
+    text-align: center;
+    color: black;
+    background-color: white;
+    margin-top: 2vw;
+}
+
 
 footer {
     color: white;
