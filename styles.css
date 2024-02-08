@@ -5,6 +5,30 @@ body {
 
 @media (max-width: 400px) {
 
+    .listen {
+        text-decoration: none;
+        font-style: italic;
+        font-size: 6vw;
+        font-family: Helvetica Neue;
+        text-align: center;
+        letter-spacing: 2vw;
+        text-align: center;
+        color: white;
+        margin-top: 2vw;
+    }
+    
+    .gohome {
+        text-decoration: none;
+        font-style: italic;
+        font-size: 4vw;
+        font-family: Helvetica Neue;
+        text-align: center;
+        text-align: center;
+        color: black;
+        background-color: white;
+        margin-top: 2vw;
+    }
+
     .top-mobile {
         display: flex;
         justify-content: space-between;
@@ -140,6 +164,30 @@ body {
 }
 
 @media (min-width: 401px) {
+
+    .listen {
+        text-decoration: none;
+        font-style: italic;
+        font-size: 3vw;
+        font-family: Helvetica Neue;
+        text-align: center;
+        letter-spacing: 2vw;
+        text-align: center;
+        color: white;
+        margin-top: 2vw;
+    }
+    
+    .gohome {
+        text-decoration: none;
+        font-style: italic;
+        font-size: 2vw;
+        font-family: Helvetica Neue;
+        text-align: center;
+        text-align: center;
+        color: black;
+        background-color: white;
+        margin-top: 2vw;
+    }
 
     .social-links-mobile {
         display: none;
@@ -278,30 +326,6 @@ body {
     color: white;
     text-align: center;
     text-decoration: none;
-}
-
-.listen {
-    text-decoration: none;
-    font-style: italic;
-    font-size: 3vw;
-    font-family: Helvetica Neue;
-    text-align: center;
-    letter-spacing: 2vw;
-    text-align: center;
-    color: white;
-    margin-top: 2vw;
-}
-
-.gohome {
-    text-decoration: none;
-    font-style: italic;
-    font-size: 2vw;
-    font-family: Helvetica Neue;
-    text-align: center;
-    text-align: center;
-    color: black;
-    background-color: white;
-    margin-top: 2vw;
 }
 
 
