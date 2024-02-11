@@ -5,6 +5,17 @@ body {
 
 @media (max-width: 400px) {
 
+    .listen-subtitle {
+        font-family: 'Times New Roman';
+        width: auto;
+        justify-self: center;
+        font-size: 3vw;
+        letter-spacing: 2vw;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+
     .listen {
         text-decoration: none;
         font-style: italic;
