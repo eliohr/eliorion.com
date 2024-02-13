@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 3999px) {
 
     .listen-subtitle {
         font-family: 'Times New Roman';
@@ -173,7 +173,7 @@ body {
 
 }
 
-@media (min-width: 401px) {
+@media (min-width: 4000px) {
 
     .listen-subtitle {
         font-family: 'Times New Roman';
