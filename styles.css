@@ -67,8 +67,8 @@ body {
     }
 
     .social-links-mobile a {
-        color: black;
-        background-color: white;
+        color: white;
+        background-color: black;
         font-size: 5vw;
         display: flex;
         align-items: right;
@@ -78,7 +78,7 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-        mix-blend-mode: screen;
+        mix-blend-mode: darken;
         padding: 1vw;
         text-decoration: none;
     }
@@ -102,11 +102,11 @@ body {
     .div-with-background {
         width: 100%;
         max-width: 100%;
-        background-image: url('eli-orion-lay-log.jpg');
+        background-image: url('eli-orion-climb-fence.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         margin: 0;
-        background-position: center top -35vw;
+        background-position: center top -25vw;
     }
 
     .pre-save {
@@ -117,7 +117,7 @@ body {
         text-align: center;
         letter-spacing: 3vw;
         text-align: center;
-        color: white;
+        color: black;
         margin-top: 2vw; /* Add margin to the top of each generation item */
     }
 
@@ -235,7 +235,7 @@ body {
     }
 
     .social-links a {
-        color: white;
+        color: black;
         padding: 1.5vw;
         height: 100%;
         text-decoration: none;
@@ -252,7 +252,7 @@ body {
     .div-with-background {
         width: 100%;
         max-width: 100%;
-        background-image: url('eli-orion-lay-log.jpg');
+        background-image: url('eli-orion-climb-fence.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         margin: 0;
@@ -268,7 +268,7 @@ body {
         letter-spacing: 3vw;
         margin: 10px;
         text-align: center;
-        color: white;
+        color: black;
     }
     
     .main-three {
