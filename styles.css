@@ -280,9 +280,7 @@ body {
     }
 
     .pre-save a {
-        text-align: left;
-        color: black;
-        background-color: white;
+        color: white;
         mix-blend-mode: difference;
     }
     
