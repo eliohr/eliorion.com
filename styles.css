@@ -114,13 +114,15 @@ body {
         font-style: italic;
         font-size: 10vw;
         font-family: Helvetica Neue;
-        text-align: center;
         letter-spacing: 3vw;
-        text-align: center;
+        margin-top: 2vw; /* Add margin to the top of each generation item */
+    }
+
+    .pre-save a {
+        text-align: left;
         color: black;
         background-color: white;
         mix-blend-mode: difference;
-        margin-top: 2vw; /* Add margin to the top of each generation item */
     }
 
     .rows-of-boxes {
@@ -273,9 +275,11 @@ body {
         font-style: italic;
         font-size: 3vw;
         font-family: Helvetica Neue;
-        text-align: center;
         letter-spacing: 3vw;
         margin: 10px;
+    }
+
+    .pre-save a {
         text-align: left;
         color: black;
         background-color: white;
