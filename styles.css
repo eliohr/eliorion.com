@@ -117,7 +117,8 @@ body {
         text-align: center;
         letter-spacing: 3vw;
         text-align: center;
-        color: white;
+        color: black;
+        background-color: white;
         mix-blend-mode: difference;
         margin-top: 2vw; /* Add margin to the top of each generation item */
     }
@@ -276,7 +277,8 @@ body {
         letter-spacing: 3vw;
         margin: 10px;
         text-align: center;
-        color: white;
+        color: black;
+        background-color: white;
         mix-blend-mode: difference;
     }
     
