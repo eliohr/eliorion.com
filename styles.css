@@ -102,8 +102,7 @@ body {
     .div-with-background {
         width: 100%;
         max-width: 100%;
-    
-        background-image: url('eli-orion-lay-log-vertical.jpg');
+        background-image: url('eli-orion-tower-climb.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         margin: 0;
@@ -253,8 +252,7 @@ body {
     .div-with-background {
         width: 100%;
         max-width: 100%;
-        
-        background-image: url('eli-orion-lay-log.jpg');
+        background-image: url('eli-orion-tower-climb.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         margin: 0;
