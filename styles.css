@@ -12,7 +12,7 @@ body {
         font-size: 3vw;
         letter-spacing: 2vw;
         color: white;
-        text-align: center;
+        text-align: left;
         text-decoration: none;
     }
 
@@ -276,7 +276,7 @@ body {
         text-align: center;
         letter-spacing: 3vw;
         margin: 10px;
-        text-align: center;
+        text-align: left;
         color: black;
         background-color: white;
         mix-blend-mode: difference;
