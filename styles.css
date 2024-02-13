@@ -78,7 +78,7 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-        mix-blend-mode: darken;
+        mix-blend-mode: difference;
         padding: 1vw;
         text-decoration: none;
     }
@@ -117,7 +117,7 @@ body {
         text-align: center;
         letter-spacing: 3vw;
         text-align: center;
-        color: black;
+        color: white;
         margin-top: 2vw; /* Add margin to the top of each generation item */
     }
 
@@ -214,6 +214,10 @@ body {
         display: none;
     }
 
+    .website-logo {
+        mix-blend-mode: difference;
+    }
+    
     .social-links {
         display: flex;
         flex-wrap: wrap;
@@ -241,12 +245,15 @@ body {
         text-decoration: none;
         text-align: center;
         font-size: 1.5vw;
+        color: white;
+        mix-blend-mode: difference;
     }
 
     #website-logo {
         width: 20vw;
         height: 100%;
         justify-self: right;
+        mix-blend-mode: difference;
     }
 
     .div-with-background {
@@ -268,7 +275,8 @@ body {
         letter-spacing: 3vw;
         margin: 10px;
         text-align: center;
-        color: black;
+        color: white;
+        mix-blend-mode: difference;
     }
     
     .main-three {
