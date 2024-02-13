@@ -67,9 +67,9 @@ body {
     }
 
     .social-links-mobile a {
-        color: white;
-        background-color: black;
-        font-size: 5vw;
+        color: black;
+        background-color: white;
+        font-size: 7vw;
         display: flex;
         align-items: right;
         justify-content: right;
@@ -106,7 +106,6 @@ body {
         background-size: cover;
         background-repeat: no-repeat;
         margin: 0;
-        background-position: center top -25vw;
     }
 
     .pre-save {
@@ -118,6 +117,7 @@ body {
         letter-spacing: 3vw;
         text-align: center;
         color: white;
+        mix-blend-mode: difference;
         margin-top: 2vw; /* Add margin to the top of each generation item */
     }
 
