@@ -5,6 +5,21 @@ body {
 
 @media (max-width: 399px) {
 
+    .youtube-video-listen-container {
+        width: 100%;
+        height: 40%;
+        display: flex;
+        justify-content: center;
+    }
+    .youtube-video-listen-container iframe {
+        width: 40vw;
+        height: 30vw;
+        min-width: 300px;
+        min-height: 225px;
+        align-self: flex-start;
+        text-align: center;
+    }
+    
     .listen-subtitle {
         font-family: 'Times New Roman';
         width: auto;
