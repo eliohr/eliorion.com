@@ -30,7 +30,12 @@
         document.addEventListener('DOMContentLoaded', function() {
             const audio = document.querySelector('audio');
             const bandcampEmbed = document.querySelector('iframe[src*="bandcamp"]');
+            const youtubeEmbed = document.querySelector('iframe[src*="youtube"]');
             
+            bandcampEmbed.addEventListener('mouseover', function() {
+                audio.pause();
+            });
+
             bandcampEmbed.addEventListener('mouseover', function() {
                 audio.pause();
             });
