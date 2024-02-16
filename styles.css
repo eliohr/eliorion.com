@@ -16,8 +16,6 @@ body {
         height: 30vw;
         min-width: 300px;
         min-height: 225px;
-        align-self: flex-start;
-        text-align: center;
     }
     
     .listen-subtitle {
