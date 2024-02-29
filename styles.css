@@ -113,14 +113,25 @@ body {
     }
     
     .div-with-background {
-        width: 100%;
-        max-width: 100%;
-        background-image: url('eli-orion-tower-climb.jpg');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        margin: 0;
-    }
+    width: 100%;
+    max-width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.img1 {
+    background-image: url('img1.jpg');
+}
+
+.img2 {
+    background-image: url('img2.jpg');
+}
+
+.img3 {
+    background-image: url('img3.jpg');
+}
 
     .pre-save {
         text-decoration: none;
@@ -274,15 +285,26 @@ body {
     }
 
     .div-with-background {
-        width: 100%;
-        max-width: 100%;
-        background-image: url('eli-orion-tower-climb.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        margin: 0;
-        background-position: center top -12vw;
-    }
+    width: 100%;
+    max-width: 100%;
+    background-size: cover;
+    background-position: center top -12vw;
+    background-repeat: no-repeat;
+    margin: 0;
+}
 
+.img1 {
+    background-image: url('eli-orion-tower-climb.jpg');
+}
+
+.img2 {
+    background-image: url('eli-orion-lay-log.jpg');
+}
+
+.img3 {
+    background-image: url('eli-orion-fiddle-rocks.jpg');
+}
+    
     .pre-save {
         text-decoration: none;
         font-style: italic;
