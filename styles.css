@@ -304,6 +304,7 @@ body {
 
 .img3 {
     background-image: url('eli-orion-fiddle-rocks.jpg');
+    background-position: center top -12vw;
 }
     
     .pre-save {
