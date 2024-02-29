@@ -122,15 +122,15 @@ body {
 }
 
 .img1 {
-    background-image: url('img1.jpg');
+    background-image: url('eli-orion-tower-climb.jpg');
 }
 
 .img2 {
-    background-image: url('img2.jpg');
+    background-image: url('eli-orion-lay-log.jpg');
 }
 
 .img3 {
-    background-image: url('img3.jpg');
+    background-image: url('eli-orion-fiddle-rocks.jpg');
 }
 
     .pre-save {
@@ -295,6 +295,7 @@ body {
 
 .img1 {
     background-image: url('eli-orion-tower-climb.jpg');
+    background-position: center top -12vw;
 }
 
 .img2 {
