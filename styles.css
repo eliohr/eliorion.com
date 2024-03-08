@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 
-@media (max-width: 399px) {
+@media (max-width: 499px) {
 
     .youtube-video-listen-container {
         width: 100%;
@@ -201,7 +201,7 @@ body {
 
 }
 
-@media (min-width: 400px) {
+@media (min-width: 500px) {
 
     .listen-subtitle {
         font-family: 'Times New Roman';
