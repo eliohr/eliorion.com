@@ -1,0 +1,405 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+@media (max-width: 499px) {
+
+    .youtube-video-listen-container {
+        width: 100%;
+        height: 40%;
+        display: flex;
+        justify-content: center;
+    }
+    .youtube-video-listen-container iframe {
+        width: 40vw;
+        height: 30vw;
+        min-width: 300px;
+        min-height: 225px;
+    }
+    
+    .listen-subtitle {
+        font-family: 'Times New Roman';
+        width: auto;
+        justify-self: center;
+        font-size: 3vw;
+        letter-spacing: 2vw;
+        color: white;
+        text-align: left;
+        text-decoration: none;
+    }
+
+    .listen {
+        text-decoration: none;
+        font-style: italic;
+        font-size: 6vw;
+        font-family: Helvetica Neue;
+        text-align: center;
+        letter-spacing: 2vw;
+        text-align: center;
+        color: white;
+        margin-top: 2vw;
+    }
+    
+    .gohome {
+        text-decoration: none;
+        font-style: italic;
+        font-size: 4vw;
+        font-family: Helvetica Neue;
+        text-align: center;
+        text-align: center;
+        color: black;
+        background-color: white;
+        margin-top: 2vw;
+    }
+
+    .top-mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: top;
+        height: 30vw;
+    }
+
+    .about {
+        color: white;
+        margin-left: 50px;
+        margin-right: 50px;
+        justify-content: left;
+        font-family: "Helvetica Neue", sans-serif;
+        font-weight: 200;
+    }
+    
+    .social-links-mobile {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 2vw;
+        /* width: 60vw; */
+        height: 1em;
+        margin: 10px;
+    }
+
+    .social-links-mobile a {
+        color: black;
+        background-color: white;
+        font-size: 7vw;
+        display: flex;
+        align-items: right;
+        justify-content: right;
+        text-decoration: none;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        mix-blend-mode: difference;
+        padding: 1vw;
+        text-decoration: none;
+    }
+
+    .top {
+        display: none;
+    }
+
+    #website-logo {
+
+        display: none;
+        /* width: 40vw;
+        height: 100%;
+        margin: 10px; */
+    }
+
+    .top-spacer {
+        height: 50vw;
+    }
+    
+    .div-with-background {
+    width: 100%;
+    max-width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.img1 {
+    background-image: url('eli-orion-tower-climb.jpg');
+}
+
+.img2 {
+    background-image: url('eli-orion-lay-log.jpg');
+}
+
+.img3 {
+    background-image: url('eli-orion-fiddle-rocks.jpg');
+}
+
+    .pre-save {
+        text-decoration: none;
+        font-style: italic;
+        font-size: 10vw;
+        font-family: Helvetica Neue;
+        letter-spacing: 3vw;
+        margin: 10px;
+        margin-top: 2vw; /* Add margin to the top of each generation item */
+    }
+
+    .pre-save a {
+        text-align: left;
+        color: black;
+        background-color: white;
+        mix-blend-mode: difference;
+    }
+
+    .rows-of-boxes {
+        justify-self: right;
+    }
+    
+    .main-three {
+        width: 20vw;
+        height: 20vw;
+        min-width: 300px;
+        min-height: 300px;
+        align-self: flex-start;
+        text-align: center;
+    }
+    
+    .generation-container {
+        display: flex;
+        justify-content: center; /* Changed from justify-self to justify-content */
+        flex-wrap: wrap;
+        gap: 5vw;
+    }
+    
+    .generation-item {
+        padding: 2vw;
+        justify-content: center;
+    }
+    
+    #image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #video-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #video-container iframe {
+        width: 20vw; /* Adjust the width as needed */
+        height: 20vw; /* Adjust the height as needed */
+    }
+    
+    .spacer {
+        height: 50px;
+    }
+    
+    .small-spacer {
+        height: 10px;
+    }
+
+}
+
+@media (min-width: 500px) {
+
+    .listen-subtitle {
+        font-family: 'Times New Roman';
+        width: auto;
+        justify-self: center;
+        font-size: 2vw;
+        letter-spacing: 1.5vw;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .listen {
+        text-decoration: none;
+        font-style: italic;
+        font-size: 3vw;
+        font-family: Helvetica Neue;
+        text-align: center;
+        letter-spacing: 2vw;
+        text-align: center;
+        color: white;
+        margin-top: 2vw;
+    }
+    
+    .gohome {
+        text-decoration: none;
+        font-style: italic;
+        font-size: 2vw;
+        font-family: Helvetica Neue;
+        text-align: center;
+        text-align: center;
+        color: black;
+        background-color: white;
+        margin-top: 2vw;
+    }
+
+    .social-links-mobile {
+        display: none;
+    }
+
+    .website-logo {
+        mix-blend-mode: difference;
+    }
+    
+    .social-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1vw;
+        justify-self: left;
+    }
+
+    .top-mobile {
+        display: none;
+    }
+
+    .top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        height: 10vw;
+    }
+
+    .social-links a {
+        color: black;
+        padding: 1.5vw;
+        height: 100%;
+        text-decoration: none;
+        text-align: center;
+        font-size: 1.5vw;
+        color: white;
+        mix-blend-mode: difference;
+    }
+
+    #website-logo {
+        width: 20vw;
+        height: 100%;
+        justify-self: right;
+        mix-blend-mode: difference;
+    }
+
+    .div-with-background {
+    width: 100%;
+    max-width: 100%;
+    background-size: cover;
+    background-position: center top -12vw;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.img1 {
+    background-image: url('eli-orion-tower-climb.jpg');
+    background-position: center top -12vw;
+}
+
+.img2 {
+    background-image: url('eli-orion-lay-log.jpg');
+}
+
+.img3 {
+    background-image: url('eli-orion-fiddle-rocks.jpg');
+    background-position: center top;
+}
+    
+    .pre-save {
+        text-decoration: none;
+        font-style: italic;
+        font-size: 2vw;
+        font-family: Helvetica Neue;
+        letter-spacing: 1vw;
+        padding: 20px;
+    }
+
+    .pre-save a {
+        color: white;
+        mix-blend-mode: difference;
+    }
+    
+    .main-three {
+        width: 20vw;
+        height: 20vw;
+        min-width: 300px;
+        min-height: 300px;
+        justify-self: center;
+        align-self: flex-start;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .generation-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2vw;
+    }
+    
+    .generation-item {
+        margin: 2vw;
+        padding: 2vw;
+        text-align: center;
+        font-size: 2vw;
+    }
+    
+    #image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #video-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #video-container iframe {
+        width: 20vw; /* Adjust the width as needed */
+        height: 20vw; /* Adjust the height as needed */
+    }
+    
+    .spacer {
+        height: 50px;
+    }
+    
+    .small-spacer {
+        height: 10px;
+    }
+    
+    .top-spacer {
+        height: 30vw;
+    }
+
+    .about {
+        color: white;
+        margin-left: 50px;
+        margin-right: 50px;
+        justify-content: left;
+        font-family: "Helvetica Neue", sans-serif;
+        font-weight: 200;
+    }
+
+}
+
+footer {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 8px;
+    text-align: center;
+}
+
+footer {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 8px;
+    text-align: center;
+}

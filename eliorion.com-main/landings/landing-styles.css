@@ -1,0 +1,285 @@
+@media (max-width: 749px) {
+
+    body {
+        background-color: black;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0;
+        justify-self: center;
+        justify-content: center;
+    }
+
+    .desktop-links {
+        display: none;
+    }
+
+    .entire-container {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        margin: 2vw;
+        padding: 2vw;
+        justify-content: center;
+    }
+
+    .cover-art-container {
+        box-sizing: border-box;
+        width: 90vw;
+        margin: 2vw;
+        order: 1;
+    }
+
+    .cover-art {
+        width: 100%;
+        height: 100%;
+    }
+
+    .title {
+        font-family: 'Helvetica Neue';
+        width: 100%;
+        justify-self: center;
+        font-size: 3vw;
+        letter-spacing: 2vw;
+        color: black;
+        background-color: white;
+        text-align: left;
+        text-decoration: none;
+        font-style: italic;
+        mix-blend-mode: difference;
+    }
+
+    .by {
+        font-family: 'Helvetica Neue';
+        width: 100%;
+        justify-self: center;
+        font-size: 3vw;
+        letter-spacing: 2vw;
+        color: black;
+        background-color: white;
+        text-align: right;
+        text-decoration: none;
+        font-style: italic;
+        mix-blend-mode: difference;
+    }
+
+    .description-container {
+        box-sizing: border-box;
+        margin: 2vw;
+        width: 90vw;
+        height: auto;
+        order: 4;
+    }
+
+    .description {
+        box-sizing: border-box;
+        font-family: "Times New Roman";
+        font-weight: 200;
+        font-style: italic;
+        text-align: justify;
+        justify-self: left;
+        padding: 1vw;
+        color: black;
+        background-color: white;
+        font-size: 3vw;
+        letter-spacing: .15vw;
+        line-height: 4.1vw;
+        width: 100%;
+        height: 100%;
+        order: 4;
+        mix-blend-mode: difference;
+    }
+
+    .mobile-links-1 {
+        justify-content: flex-end;
+        align-self: flex-end;
+        margin-top: 0;
+        margin-bottom: 2.5vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-self: left;
+        gap: 3vw;
+        order: 2;
+    }
+
+    .mobile-links-2 {
+        justify-content: flex-end;
+        align-self: flex-end;
+        margin-bottom: .5vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-self: left;
+        gap: 3vw;
+        order: 3;
+
+    }
+
+    .mobile-links-1 a {
+        color: black;
+        font-family: "Helvetica Neue";
+        padding: 1vw;
+        height: 100%;
+        text-decoration: none;
+        text-align: center;
+        font-size: 4vw;
+        letter-spacing: -.3vw;
+        background-color: white;
+        mix-blend-mode: difference;
+    }
+
+    .mobile-links-2 a {
+        color: black;
+        font-family: "Helvetica Neue";
+        padding: 1vw;
+        height: 100%;
+        text-decoration: none;
+        text-align: center;
+        font-size: 4vw;
+        letter-spacing: -.3vw;
+        background-color: white;
+        mix-blend-mode: difference;
+    }
+
+    .dnd {
+        font-size: 2vw;
+        margin: 2vw;
+        margin-top: none;
+        padding-top: none;
+        padding-left: 4.4vw;
+        color: white;
+        font-family: 'Times New Roman';
+        letter-spacing: 1vw;
+        justify-content: center;
+        mix-blend-mode: difference;
+    }
+
+}
+
+@media (min-width: 750px) {
+
+    body {
+        background-color: black;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        background-repeat: no-repeat;
+        justify-content: center;
+        margin: 0;
+        justify-self: center;
+        justify-content: center;
+    }
+
+    .entire-container {
+        display: flex;
+        flex-direction: row;
+        box-sizing: border-box;
+    }
+
+    .cover-art-container {
+        width: 30vw;
+        margin: 2vw;
+    }
+
+    .cover-art {
+        width: 100%;
+        height: 100%;
+    }
+
+    .title {
+        font-family: 'Helvetica Neue';
+        width: 100%;
+        justify-self: center;
+        font-size: 3vw;
+        letter-spacing: 2vw;
+        color: black;
+        background-color: white;
+        text-align: left;
+        text-decoration: none;
+        font-style: italic;
+        mix-blend-mode: difference;
+    }
+
+    .by {
+        font-family: 'Helvetica Neue';
+        width: 100%;
+        justify-self: center;
+        font-size: 3vw;
+        letter-spacing: 2vw;
+        color: black;
+        background-color: white;
+        text-align: right;
+        text-decoration: none;
+        font-style: italic;
+        mix-blend-mode: difference;
+    }
+
+    .description-container {
+        margin: 2vw;
+        width: 30vw;
+        height: 30vw;
+        padding-left: .5vw;
+        padding-right: .5vw;
+        background-color: white;
+        mix-blend-mode: difference;
+    }
+
+    .description {
+        font-family: "Times New Roman";
+        font-weight: 200;
+        font-style: italic;
+        text-align: justify;
+        justify-self: left;
+        justify-content: center;
+        align-content: center;
+        color: white;
+        font-size: 1.1vw;
+        letter-spacing: .05vw;
+        line-height: 1.7vw;
+        width: 100%;
+        height: 100%;
+        mix-blend-mode: difference;
+    }
+
+    .mobile-links-1 {
+        display: none;
+    }
+
+    .mobile-links-2 {
+        display: none;
+    }
+
+    .desktop-links {
+        margin: 2vw;
+        margin-top: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-self: left;
+        gap: 5.14vw;
+    }
+
+    .desktop-links a {
+        color: black;
+        font-family: "Helvetica Neue";
+        padding: 1vw;
+        height: 100%;
+        text-decoration: none;
+        text-align: center;
+        font-size: 2vw;
+        letter-spacing: -.15vw;
+        background-color: white;
+        mix-blend-mode: difference;
+    }
+
+    .dnd {
+        font-size: 1.5vw;
+        margin: 2vw;
+        color: white;
+        font-family: 'Times New Roman';
+        letter-spacing: 1.5vw;
+        mix-blend-mode: difference;
+    }
+
+}
+
