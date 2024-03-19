@@ -139,6 +139,7 @@ body {
         font-size: 10vw;
         font-family: Helvetica Neue;
         letter-spacing: 3vw;
+        margin: 10px;
         margin-top: 2vw; /* Add margin to the top of each generation item */
     }
 
@@ -207,7 +208,7 @@ body {
         font-family: 'Times New Roman';
         width: auto;
         justify-self: center;
-        font-size: 1vw;
+        font-size: 2vw;
         letter-spacing: 1.5vw;
         color: white;
         text-align: center;
@@ -250,7 +251,7 @@ body {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 1.5vw;
+        gap: 1vw;
         justify-self: left;
     }
 
@@ -310,10 +311,10 @@ body {
     .pre-save {
         text-decoration: none;
         font-style: italic;
-        font-size: 3vw;
+        font-size: 2vw;
         font-family: Helvetica Neue;
-        letter-spacing: 3vw;
-        margin: 10px;
+        letter-spacing: 1vw;
+        padding: 20px;
     }
 
     .pre-save a {
@@ -386,7 +387,6 @@ body {
     }
 
 }
-
 
 footer {
     color: white;
