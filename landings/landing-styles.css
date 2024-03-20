@@ -13,6 +13,18 @@
         display: none;
     }
 
+    .images-container {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .images-container img {
+        width: 100%;
+
+        margin-top: -0.7vw;
+    }
+
     .entire-container {
         box-sizing: border-box;
         display: flex;
@@ -281,5 +293,41 @@
         mix-blend-mode: difference;
     }
 
+    .images-container {
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+    
+    }
+    
+    .images-container img {
+        height: 73.1vh;
+    }
+
+    .images-container a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 50vw;
+    }
+
+    .images-container img {
+        height: auto;
+        margin-top: -0.7vw;
+        width: 100%;
+        max-width: 50vw;
+    }
+
 }
 
+.more-pictures {
+    font-family: 'Helvetica Neue';
+    color: black;
+    background-color: white;
+    font-size: 4vw;
+    letter-spacing: .005vw;
+    margin: 6vw;
+    text-decoration: none;
+}
