@@ -296,6 +296,7 @@ body {
 
 .img1 {
     background-image: url('eli-orion-guitar-fisheye.jpg');
+    background-position: center-top;
 }
 
 .img2 {
@@ -309,6 +310,7 @@ body {
 
 .img4 {
     background-image: url('eli-orion-low-perspective.jpg');
+    background-position: center top;
 }
     
     .pre-save {
