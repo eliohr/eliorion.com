@@ -258,7 +258,7 @@ body {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 1vw;
+        gap: .8vw;
         justify-self: left;
     }
 
