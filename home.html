@@ -33,11 +33,16 @@
             const bandcampEmbed = document.querySelector('iframe[src*="bandcamp"]');
             const youtubeEmbed = document.querySelector('iframe[src*="youtube"]');
             
+            const spotifyEmbed = document.querySelector('iframe[src*="spotify"]');
+            
             bandcampEmbed.addEventListener('mouseover', function() {
                 audio.pause();
             });
 
-            bandcampEmbed.addEventListener('mouseover', function() {
+            youtubeEmbed.addEventListener('mouseover', function() {
+                audio.pause();
+            });
+            spotifyEmbed.addEventListener('mouseover', function() {
                 audio.pause();
             });
 
