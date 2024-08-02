@@ -1,0 +1,382 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+.about {
+    color: white;
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 200;
+    justify-content: left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.box {
+    align-self: flex-start;
+    height: 20vw;
+    min-height: 300px;
+    min-width: 300px;
+    position: relative;
+    text-align: center;
+    width: 20vw;
+}
+
+.box-container-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-self: right;
+}
+
+.gohome {
+    background-color: white;
+    color: black;
+    font-family: Helvetica Neue;
+    font-style: italic;
+    margin-top: 2vw;
+    text-align: center;
+    text-decoration: none;
+}
+
+.hyperfollow {
+    font-family: Helvetica Neue;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.image-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.img1 {
+    background-image: url('../media/images/eli-orion-guitar-fisheye.jpeg');
+    background-position: center top;
+}
+
+.img2 {
+    background-image: url('../media/images/eli-orion-leaves-sing.jpeg');
+}
+
+.img3 {
+    background-image: url('../media/images/eli-orion-overlook.jpeg');
+    background-position: center top;
+}
+
+.img5 {
+    background-image: url('../media/images/eli-orion-fiddle-rocks.jpeg');
+    background-position: center top;
+}
+
+.img6 {
+    background-image: url('../media/images/eli-orion-low-perspective.jpeg');
+    background-position: center top;
+}
+
+.img7 {
+    background-image: url('../media/images/eli-orion-tower-climb.jpeg');
+    background-position: center top;
+}
+
+.listen {
+    color: white;
+    font-family: Helvetica Neue;
+    font-style: italic;
+    letter-spacing: 2vw;
+    margin-top: 2vw;
+    text-align: center;
+    text-decoration: none;
+}
+
+.listen-subtitle {
+    color: white;
+    font-family: 'Times New Roman';
+    justify-self: center;
+    text-decoration: none;
+    width: auto;
+}
+
+.mailto {
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.small-spacer {
+    height: 10px;
+}
+
+.spacer {
+    height: 50px;
+}
+
+.spotify-box {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.spotify-embed {
+    height: 300px;
+    position: absolute;
+    z-index: 2;
+}
+
+.spotify-embed-color {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.top {
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+}
+
+.video-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.video-container iframe {
+    height: 20vw;
+    width: 20vw;
+}
+
+@media (max-width: 499px) {
+    .box-container {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        max-height: 300px;
+        max-width: 300px;
+        padding: 2vw;
+    }
+
+    .box-container-container {
+        gap: 5vw;
+    }
+
+    .gohome {
+        font-size: 4vw;
+    }
+
+    .hyperfollow {
+        font-size: 10vw;
+        letter-spacing: 3vw;
+        margin: 10px;
+        margin-top: 2vw;
+    }
+
+    .hyperfollow a {
+        background-color: white;
+        color: black;
+        mix-blend-mode: difference;
+        text-align: left;
+    }
+
+    .img4 {
+        background-image: url('../media/images/eli-orion-lay-log-vertical.jpeg');
+        background-position: center top;
+    }
+
+    .listen {
+        font-size: 6vw;
+    }
+
+    .listen-subtitle {
+        font-size: 3vw;
+        letter-spacing: 2vw;
+        text-align: left;
+    }
+
+    .logo {
+        display: none;
+        mix-blend-mode: difference;
+    }
+
+    .social-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: .8vw;
+        justify-content: center;
+        justify-self: left;
+    }
+
+    .social-links a {
+        color: black;
+        padding: 1.5vw;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .social-links-mobile {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2vw;
+        height: 1em;
+        justify-content: flex-end;
+        margin: 10px;
+    }
+
+    .social-links-mobile a {
+        align-items: center;
+        background-color: white;
+        color: black;
+        display: flex;
+        font-size: 7vw;
+        justify-content: center;
+        mix-blend-mode: difference;
+        padding: 1vw;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .top {
+        background-position: center;
+    }
+
+    .top-desktop {
+        display: none;
+    }
+
+    .top-mobile {
+        align-items: top;
+        display: flex;
+        height: 30vw;
+        justify-content: space-between;
+    }
+
+    .top-spacer {
+        height: 50vw;
+    }
+
+    .youtube-video-listen-container {
+        display: flex;
+        height: 40%;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .youtube-video-listen-container iframe {
+        height: 30vw;
+        min-height: 225px;
+        min-width: 300px;
+        width: 40vw;
+    }
+}
+
+@media (min-width: 500px) {
+    .box-container {
+        margin: 2vw;
+        padding: 2vw;
+        font-size: 2vw;
+        text-align: center;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
+    
+    .box-container-container {
+        gap: 2vw;
+    }
+    
+    .gohome {
+        font-size: 2vw;
+    }
+    
+    .hyperfollow {
+        font-size: 2vw;
+        letter-spacing: 1vw;
+        padding: 20px;
+    }
+    
+    .hyperfollow a {
+        color: white;
+        mix-blend-mode: difference;
+    }
+    
+    .img4 {
+        background-image: url('../media/images/eli-orion-lay-log.jpeg');
+        background-position: center top;
+    }
+    
+    .listen {
+        font-size: 3vw;
+    }
+    
+    .listen-subtitle {
+        font-size: 2vw;
+        letter-spacing: 1.5vw;
+        text-align: center;
+    }
+    
+    .logo {
+        mix-blend-mode: difference;
+    }
+    
+    .social-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: .8vw;
+        justify-self: left;
+    }
+    
+    .social-links a {
+        color: white;
+        padding: 1.5vw;
+        height: 100%;
+        text-decoration: none;
+        text-align: center;
+        font-size: 1.5vw;
+        mix-blend-mode: difference;
+    }
+    
+    .social-links-mobile {
+        display: none;
+    }
+    
+    .top {
+        background-position: center top -12vw;
+    }
+    
+    .top-desktop {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        height: 10vw;
+    }
+    
+    .top-mobile {
+        display: none;
+    }
+    
+    .top-spacer {
+        height: 30vw;
+    }
+    
+    #logo {
+        width: 20vw;
+        height: 100%;
+        justify-self: right;
+        mix-blend-mode: difference;
+    }
+}
+
+footer {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 8px;
+    text-align: center;
+}

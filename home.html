@@ -3,13 +3,30 @@
 <html>
 
 <head>
+    
     <title>Welcome to Pop Rock City</title>
-    <meta name="description" content="Listen to music by Eli Orion">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" href="%3F1.jpg">
+    <meta name="description" content="Listen to music by Eli Orion">
+
+    <!-- Open Graph sharing -->
+    <meta property="og:title" content="Welcome to Pop Rock City">
+    <meta property="og:description" content="Listen to music by Eli Orion">
+    <meta property="og:image" content="media/images/eydwth.jpeg">
+    <meta property="og:url" content="https://eliorion.com/home">
     
+    <!-- Twitter Card sharing -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Welcome to Pop Rock City">
+    <meta name="twitter:description" content="Listen to music by Eli Orion">
+    <meta name="twitter:image" content="media/images/eydwth.jpeg">
+    <meta name="twitter:site" content="@eli_orion">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="media/images/%3F1.jpeg">
+    
+    <!-- Mailchimp signup popup -->
     <script id="mcjs">
         !function(c,h,i,m,p){
             m=c.createElement(h),
@@ -25,298 +42,205 @@
 <body>
 
     <!--
+    <!- - autoplay ambience - ->
     <audio autoplay loop>
         <source src="tv-ambience.wav" type="audio/mpeg">
         Your browser does not support the audio element.
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const audio = document.querySelector('audio');
-            const bandcampEmbed = document.querySelector('iframe[src*="bandcamp"]');
-            const youtubeEmbed = document.querySelector('iframe[src*="youtube"]');
-            
-            const spotifyEmbed = document.querySelector('iframe[src*="spotify"]');
-            
-            bandcampEmbed.addEventListener('mouseover', function() {
-                audio.pause();
-            });
-
-            youtubeEmbed.addEventListener('mouseover', function() {
-                audio.pause();
-            });
-            spotifyEmbed.addEventListener('mouseover', function() {
-                audio.pause();
-            });
-
-        });
-    </script>
     </audio>
-
     -->
 
-    
-
-<div class="div-with-background" alt="Listen to music by Eli Orion.<br><br>">
-
-    <script>
-        const element = document.querySelector('.div-with-background');
-        const randomNum = Math.floor(Math.random() * 6) + 1;
-        element.classList.add('img' + randomNum);
-    </script>
-    
-    <div class="top-mobile">
-        <a href="https://open.spotify.com/playlist/4j69lQ1CjvBO71O9H5LvRo" target="_blank">
-            <img src="eli-orion-logo-everything-black.png" alt="logo" id="website-logo" />
-        </a>
-        <div class="social-links-mobile">
-            <a href="https://eliorion.bandcamp.com" target="_blank" alt="bandcamp">bandcamp</a>
-            <a href="https://www.youtube.com/@eliorion" target="_blank" alt="youtube">youtube</a>
-            <a href="https://open.spotify.com/artist/6NLvoDEJwXQj6k8nxniIit" target="_blank" alt="spotify">spotify</a>
-            <a href="https://music.apple.com/us/artist/eli-orion/1574914448" target="_blank" alt="apple music">apple music</a>
-            <a href="https://mailchi.mp/b9851fac2fc5/eli-orion" target="_blank" alt="mailing list">mailing list</a>
-            <a href="https://www.instagram.com/eli.0rion" target="_blank" alt="instagram">instagram</a>
-            <!-- <a href="https://www.tiktok.com/@eli_orion" target="_blank" alt="tiktok">tiktok</a> -->
-            <a href="https://www.soundcloud.com/eohr" target="_blank" alt="soundcloud">soundcloud</a>
-            <a href="https://genius.com/artists/Eli-orion" target="_blank" alt="genius">genius</a>
-        </div>
-    </div>
-
+    <!-- top section contains an image background with links and distinct mobile/desktop layouts based on vw -->
     <div class="top">
-        <div class="social-links">
-            <a href="https://eliorion.bandcamp.com" target="_blank" alt="bandcamp">bandcamp</a>
-            <a href="https://www.youtube.com/@eliorion" target="_blank" alt="youtube">youtube</a>
-            <a href="https://open.spotify.com/artist/6NLvoDEJwXQj6k8nxniIit" target="_blank" alt="spotify">spotify</a>
-            <a href="https://music.apple.com/us/artist/eli-orion/1574914448" target="_blank" alt="apple music">apple music</a>
-            <a href="https://mailchi.mp/b9851fac2fc5/eli-orion" target="_blank" alt="mailing list">mailing list</a>
-            <a href="https://www.instagram.com/eli.0rion" target="_blank" alt="instagram">instagram</a>
-            <!-- <a href="https://www.tiktok.com/@eli_orion" target="_blank" alt="tiktok">tiktok</a> -->
-            <a href="https://www.soundcloud.com/eohr" target="_blank" alt="soundcloud">soundcloud</a>
-            <a href="https://genius.com/artists/Eli-orion" target="_blank" alt="genius">genius</a>
+        
+        <div class="top-mobile">
+
+            <a href="https://open.spotify.com/playlist/4j69lQ1CjvBO71O9H5LvRo" target="_blank">
+                <img src="eli-orion-logo-everything-black.png" alt="logo" id="logo" />
+            </a>
+
+            <div class="social-links-mobile">
+                <a href="https://eliorion.bandcamp.com" target="_blank">bandcamp</a>
+                <a href="https://www.youtube.com/@eliorion" target="_blank">youtube</a>
+                <a href="https://open.spotify.com/artist/6NLvoDEJwXQj6k8nxniIit" target="_blank">spotify</a>
+                <a href="https://music.apple.com/us/artist/eli-orion/1574914448" target="_blank">apple music</a>
+                <a href="https://mailchi.mp/b9851fac2fc5/eli-orion" target="_blank">mailing list</a>
+                <a href="https://www.instagram.com/eli.0rion" target="_blank">instagram</a>
+                <!-- <a href="https://www.tiktok.com/@eli_orion" target="_blank">tiktok</a> -->
+                <a href="https://www.soundcloud.com/eohr" target="_blank">soundcloud</a>
+                <a href="https://genius.com/artists/Eli-orion" target="_blank">genius</a>
+            </div>
+
         </div>
-        <a href="https://open.spotify.com/playlist/4j69lQ1CjvBO71O9H5LvRo" target="_blank">
-            <img src="eli-orion-logo-everything.png" alt="logo" id="website-logo" />
-        </a>
-    </div>
 
-    <div class="top-spacer">
-    </div>
+        <div class="top-desktop">
 
-    <div class="pre-save" style:"text-decoration: none">
-       <a class="pre-save" style="text-decoration: none;" href="https://distrokid.com/hyperfollow/eliorion/everything-you-didnt-want-to-hear">EVERYTHING YOU DIDN'T WANT TO HEAR</a>
-    </div>
+            <div class="social-links">
+                <a href="https://eliorion.bandcamp.com" target="_blank">bandcamp</a>
+                <a href="https://www.youtube.com/@eliorion" target="_blank">youtube</a>
+                <a href="https://open.spotify.com/artist/6NLvoDEJwXQj6k8nxniIit" target="_blank">spotify</a>
+                <a href="https://music.apple.com/us/artist/eli-orion/1574914448" target="_blank">apple music</a>
+                <a href="https://mailchi.mp/b9851fac2fc5/eli-orion" target="_blank">mailing list</a>
+                <a href="https://www.instagram.com/eli.0rion" target="_blank">instagram</a>
+                <!-- <a href="https://www.tiktok.com/@eli_orion" target="_blank">tiktok</a> -->
+                <a href="https://www.soundcloud.com/eohr" target="_blank">soundcloud</a>
+                <a href="https://genius.com/artists/Eli-orion" target="_blank">genius</a>
+            </div>
 
-    <div class="spacer">
-    </div>
+            <a href="https://open.spotify.com/playlist/4j69lQ1CjvBO71O9H5LvRo" target="_blank">
+                <img src="eli-orion-logo-everything.png" alt="logo" id="logo" />
+            </a>
 
-</div>
+        </div>
+
+        <!-- specifically sized spacer for the top section to leave space for the link -->
+        <div class="top-spacer">
+        </div>
+
+        <div class="hyperfollow">
+           <a class="hyperfollow" href="https://distrokid.com/hyperfollow/eliorion/everything-you-didnt-want-to-hear">EVERYTHING YOU DIDN'T WANT TO HEAR</a>
+        </div>
+
+        <div class="spacer">
+        </div>
+
+    </div>
 
     <div class="spacer">
     </div>
    
     <div class="about">
-        Everything You Didn't Want to Hear is "a whirlwind of impressive production, self-aware narratives, and hooks that [demand] festivals. [...] The scope of the project and its execution speak to the skill that Orion has as an artist, and as long as this artist’s creative engine gets enough fuel, subsequent projects are something for which one should be excited." - <a style="font-weight: bold; text-decoration: none; color: white; font-weight: 400;" href="https://fsm.ink/album-review-eli-orions-everything-you-didnt-want-to-hear-2/">Logan Lamers, fsm</a><br>
+        Everything You Didn't Want to Hear is "a whirlwind of impressive production, self-aware narratives, and hooks that [demand] festivals. [...] The scope of the project and its execution speak to the skill that Orion has as an artist, and as long as this artist's creative engine gets enough fuel, subsequent projects are something for which one should be excited." - <a style="font-weight: bold; text-decoration: none; color: white; font-weight: 400;" href="https://fsm.ink/album-review-eli-orions-everything-you-didnt-want-to-hear-2/">Logan Lamers, fsm</a><br>
         <br>You can listen to Apologies on Soundcloud, buy CDs on Bandcamp, watch accompanying videos on YouTube, and hear Eli play live around Minneapolis, MN, and Appleton, WI.<br>
-        <br>Get in touch! <a style="font-weight: bold; text-decoration: none; color: white; font-weight: 400;" href="mailto:eohr.orion@gmail.com">eohr.orion@gmail.com</a>
-        
-
+        <br>Get in touch! <a class="mailto" href="mailto:eliorion@gmail.com">eliorion@gmail.com</a>
     </div>
 
     <div class="spacer">
     </div>
 
-    <div class="rows-of-boxes">
+    <div class="box-container-container">
 
-        <div class="generation-container">
-
-            <!--
-            <div class="generation-item">
+        <!--
+        <div class="box-container">
             <a href="https://distrokid.com/hyperfollow/eliorion/who-needs">
-                <img class="main-three" src="3 Who Needs%3F.JPEG"/>
+                <img class="box" src="needs.jpeg"/>
             </a>
-            </div>
-            
-            <div class="generation-item">
+        </div>
+        
+        <div class="box-container">
             <a href="https://distrokid.com/hyperfollow/eliorion/the-bells-4">
-                <img class="main-three" src="2 The Bells.JPEG"/>
+                <img class="box" src="bells.jpeg"/>
             </a>
         </div>
 
-            <div class="generation-item">
+        <div class="box-container">
             <a href="https://distrokid.com/hyperfollow/eliorion/diesel-im-alive">
-                <img class="main-three" src="1 Diesel.JPEG"/>
+                <img class="box" src="diesel.jpeg"/>
             </a>
+        </div>
 
+        !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        COPY/PASTE [APOLOGIES soundcloud - ALBUM hyperfollow - DELETED SCENES bandcamp] FROM INDEX HERE
+        !!!!!!!!!!!!!!!!!!!!!!!!!!!1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-            1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!!!!!!!!!!!!!!!!!!!!
-            COPY PASTE [APOLOGIES soundcloud - ALBUM hyperfollow - DELETED SCENES bandcamp] FROM INDEX HERE
-            1!!!!!!!!!!!!!!!!!!!!!!!!!!!1!!!!!!!!!!!!!!!!!!!!!!!!!!!1!!!!!!
-            -->
+        -->
 
-            <div class="generation-item" id="video-container">
-            <iframe class="main-three" class="listen-subtitle" align=center src="https://www.youtube.com/embed/Hbq_SN7iL0U?si=Peh_cEmFzBcZ3vHr"
+        <div class="box-container video-container">
+            <iframe class="box" src="https://www.youtube.com/embed/Hbq_SN7iL0U?si=Peh_cEmFzBcZ3vHr"
                 title="I Quit Everything [video]"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
         </div>
-            
-            <div class="generation-item" id="video-container">
-            <iframe class="main-three" class="listen-subtitle" align=center src="https://www.youtube.com/embed/kj_57FtiEis?si=En2GeBhChM-0brtZ"
+        
+        <div class="box-container video-container">
+            <iframe class="box" src="https://www.youtube.com/embed/kj_57FtiEis?si=En2GeBhChM-0brtZ"
                 title="Diesel (I'm Alive) [video]"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
         </div>
 
-            <div class="generation-item" id="video-container">
-            <iframe class="main-three" class="listen-subtitle" align=center src="https://www.youtube.com/embed/1z72T_8VBE8?si=uoBkISonCgwWok63"
+        <div class="box-container video-container">
+            <iframe class="box" src="https://www.youtube.com/embed/1z72T_8VBE8?si=uoBkISonCgwWok63"
                 title="Who Needs? [video]"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
         </div>
 
-            <div class="generation-item" id="video-container">
-            <iframe class="main-three" class="listen-subtitle" align=center src="https://www.youtube.com/embed/W6Er_SVZLUk?si=JhbL_-8QtfTP3yVQ"
+        <div class="box-container video-container">
+            <iframe class="box" src="https://www.youtube.com/embed/W6Er_SVZLUk?si=JhbL_-8QtfTP3yVQ"
                 title="Rebound Baby [video]"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
         </div>
-            
-            <div class="generation-item" id="video-container">
-            <iframe class="main-three" class="listen-subtitle" align=center src="https://www.youtube.com/embed/Yc32mSc1lrA?si=OMPFY1GtbnsGPvLf"
+        
+        <div class="box-container video-container">
+            <iframe class="box" src="https://www.youtube.com/embed/Yc32mSc1lrA?si=OMPFY1GtbnsGPvLf"
                 title="Press Rewind [video]"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
         </div>
-            
-             <div class="generation-item" id="video-container">
-            <iframe class="main-three" class="listen-subtitle" align=center src="https://www.youtube.com/embed/FFtG3fyaoSc?si=V7kB1UDnIKswstug"
+        
+        <div class="box-container video-container">
+            <iframe class="box" src="https://www.youtube.com/embed/FFtG3fyaoSc?si=V7kB1UDnIKswstug"
                 title="Right Track [video]"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
         </div>
 
-            
-             <!--
-            
-
-        <div class="generation-item">
-            <iframe class="main-three;" style="width: 300px; height: 300px;" src="https://bandcamp.com/EmbeddedPlayer/album=2728175366/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://eliorion.bandcamp.com/album/chapter-i-the-long-run">Chapter I: The Long Run by Eli Orion</a></iframe>
-            <a class="listen-subtitle" href="http://eliorion.bandcamp.com"><p>bandcamp</p> </a>
+        <div class="box-container">
+            <div class="box spotify-box" style="background-color: #e32f2f;">
+                <iframe class="spotify-embed" src="https://open.spotify.com/embed/episode/23H3Zv1TfNCPTH2TnOMHMo?utm_source=generator" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
         </div>
-
-            
-BVANDC AMPOPPS
-
-        <div class="generation-item">
-            <iframe class="main-three;" style="width: 20vw;
-            height: 20vw;
-            min-width: 300px;
-            min-height: 300px;" src="https://bandcamp.com/EmbeddedPlayer/album=2728175366/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://eliorion.bandcamp.com/album/chapter-i-the-long-run">Chapter I: The Long Run by Eli Orion</a></iframe>
-</div>
-        -->
-            
-        <!-- <div class="generation-item">
-            <SOMETHIGN>
-        </div> -->
-
-            
-
-            <!--
-            <div class="generation-item">
-            <a class="listen-subtitle" style="text-decoration: none;" href="https://distrokid.com/hyperfollow/eliorion/everything-you-didn't-want-to-hear">
-                <img class="main-three" src="8 Everything You Didn't Want to Hear.jpg" />
+        
+        <div class="box-container">
+            <a href="https://fsm.ink/album-review-eli-orions-everything-you-didnt-want-to-hear-2/">
+                <img class="box" src="media/images/fsm-review.jpeg"/>
             </a>
         </div>
-            -->
 
-            <div class="generation-item" style="position: relative; display: flex; justify-content: center; align-items: center; width: 300px; height: 300px;">
-            <img class="main-three listen-subtitle" src="red.png" style="position: absolute; z-index: 1;">
-            <iframe class="main-three listen-subtitle" style="border-radius:0px; position: absolute; width: 300px; height: 300px; z-index: 2;" src="https://open.spotify.com/embed/episode/23H3Zv1TfNCPTH2TnOMHMo?utm_source=generator" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-            </div>
-            
-            <div class="generation-item">
-                <a href="https://fsm.ink/album-review-eli-orions-everything-you-didnt-want-to-hear-2/">
-                    <img class="main-three" src="interview.jpg"/>
-                </a>
-            </div>
-
-            <div class="generation-item" id="video-container">
-            <iframe class="main-three" class="listen-subtitle" align=center src="https://www.youtube.com/embed/videoseries?si=cpzJ8_t1zGemSFWn&amp;list=PLst6gCfPffOAKgj2T5Cy8xKZPosVqCHE3"
+        <div class="box-container video-container">
+            <iframe class="box" src="https://www.youtube.com/embed/videoseries?si=cpzJ8_t1zGemSFWn&amp;list=PLst6gCfPffOAKgj2T5Cy8xKZPosVqCHE3"
                 title="Everything short films"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
         </div>
 
-            
-            <!--
-            <div class="generation-item">
-                <a href="https://distrokid.com/hyperfollow/eliorion/chapter-i-the-long-run">
-                    <img class="main-three" src="4 Chapter 1 The Long Run.jpg"/>
-                </a>
-            </div>
-
-             
-            
-            <div class="generation-item">
-                <a href="https://distrokid.com/hyperfollow/eliorion/chapter-ii-paper-airplanes-and-tv-people">
-                    <img class="main-three" src="5 Chapter 2: Paper Airplanes and TV People.jpg"/>
-                </a>
-            </div>
-
-            <div class="generation-item">
-                <a href="https://distrokid.com/hyperfollow/eliorion/chapter-iii-ill-be-there-the-good-part">
-                    <img class="main-three" src="6 Chapter 3 I'll Be There (The Good Part).jpg"/>
-                </a>
-            </div>
-
-            -->
-                
-            
-            <div class="generation-item">
-    <a href="https://open.spotify.com/playlist/4j69lQ1CjvBO71O9H5LvRo?si=269d9c18a1ea443b">
-        <img class="main-three" src="POPROCKRADIO plist.jpg" alt="pop rock radio playlist"/>
-    </a>
-</div>
-
-            <div class="generation-item" id="image-container">
-            <a href="tv-ambience.wav">
-                <img id="main-image" class="main-three" src="vest.jpg" alt="eli donning a vest" />
+        <div class="box-container">
+            <a href="https://open.spotify.com/playlist/4j69lQ1CjvBO71O9H5LvRo?si=269d9c18a1ea443b">
+                <img class="box" src="media/images/poprockradio.jpeg" alt="pop rock radio playlist"/>
             </a>
         </div>
 
-        <div class="generation-item">
+        <div class="box-container image-container">
+            <a href="media/audio/tv-ambience.wav">
+                <img id="flipper" class="box" src="media/images/vest.jpeg" alt="eli donning a vest" />
+            </a>
+        </div>
+
+        <div class="box-container">
             <a href="https://eliorion.blogspot.com" ">
-                <img class="main-three" src="%3F2.jpg"/>
+                <img class="box" src="media/images/%3F2.jpeg" alt="?"/>
             </a>
         </div>
-
             
-</div>
-        </div>
-
     </div>
 
-    <script>
-        document.getElementById("main-image").onmouseover = function() {
-            this.src = "facepalm.jpg";
-        }
-        document.getElementById("main-image").onmouseout = function() {
-            this.src = "vest.jpg";
-        }
-    </script>
-    
     <div class="spacer">
     </div>
-    
-    </body>
 
-    <footer>
-        <p style="letter-spacing: 5px; text-decoration: none; color: inherit; font-size: 12px;">thanks for coming! see u soon :)</p>
-    </footer>
+    <script src="js/main.js"></script>
     
-    </html>
+</body>
+
+<footer>
+    <p style="letter-spacing: 5px; text-decoration: none; color: inherit; font-size: 12px;">thanks for sticking around :)</p>
+</footer>
+
+</html>
