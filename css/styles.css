@@ -98,6 +98,19 @@ body {
     width: auto;
 }
 
+.random-letters {
+    color: white;
+    font-family: Helvetica Neue;
+    font-style: italic;
+    font-size: 50px;
+    text-decoration: none;
+    position: absolute;
+    z-index: 1;
+    transition: left 0.5s, top 0.5s;
+    left: 10px;
+    top: 300px;
+}
+
 .mailto {
     color: white;
     font-weight: 400;
@@ -138,12 +151,6 @@ body {
     margin: 0;
     max-width: 100%;
     width: 100%;
-}
-
-.video-container {
-    align-items: center;
-    display: flex;
-    justify-content: center;
 }
 
 .video-container iframe {
@@ -325,6 +332,18 @@ body {
         font-size: 2vw;
         letter-spacing: 1.5vw;
         text-align: center;
+    }
+
+    .listen-tall {
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        height: 100vh; /* Ensure it takes the full height of the viewport */
+        display: flex;
+        flex-direction: column;
+        overflow-y: auto;
+        gap: 100px;
     }
     
     .logo {
