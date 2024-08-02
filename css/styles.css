@@ -15,11 +15,11 @@ body {
 .box {
     align-self: flex-start;
     height: 20vw;
+    width: 20vw;
     min-height: 300px;
     min-width: 300px;
     position: relative;
     text-align: center;
-    width: 20vw;
 }
 
 .box-container-container {
@@ -117,19 +117,19 @@ body {
     display: flex;
     justify-content: center;
     position: relative;
+    min-height: 300px;
+    min-width: 300px;
+    height: 20vw;
+    width: 20vw;
 }
 
 .spotify-embed {
-    height: 300px;
+    min-height: 300px;
+    min-width: 300px;
+    height: 20vw;
+    width: 20vw;
     position: absolute;
     z-index: 2;
-}
-
-.spotify-embed-color {
-    height: 100%;
-    position: absolute;
-    width: 100%;
-    z-index: 1;
 }
 
 .top {
@@ -149,6 +149,8 @@ body {
 .video-container iframe {
     height: 20vw;
     width: 20vw;
+    min-height: 300px;
+    min-width: 300px;
 }
 
 @media (max-width: 499px) {
@@ -167,6 +169,7 @@ body {
 
     .gohome {
         font-size: 4vw;
+        text-align: center;
     }
 
     .hyperfollow {
@@ -283,6 +286,10 @@ body {
         display: flex;
         justify-items: center;
         align-items: center;
+        height: 20vw;
+        width: 20vw;
+        min-height: 300px;
+        min-width: 300px;
     }
     
     .box-container-container {
@@ -291,6 +298,7 @@ body {
     
     .gohome {
         font-size: 2vw;
+        text-align: center;
     }
     
     .hyperfollow {
