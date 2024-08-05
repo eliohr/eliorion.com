@@ -161,6 +161,12 @@ body {
 }
 
 @media (max-width: 499px) {
+    #logo {
+        width: 1in;
+        height: 0.5in;
+        mix-blend-mode: difference;
+    }
+
     .box-container {
         align-items: center;
         display: flex;
@@ -206,11 +212,6 @@ body {
         font-size: 3vw;
         letter-spacing: 2vw;
         text-align: left;
-    }
-
-    .logo {
-        display: none;
-        mix-blend-mode: difference;
     }
 
     .social-links {
