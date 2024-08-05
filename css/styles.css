@@ -286,6 +286,10 @@ body {
 }
 
 @media (min-width: 500px) {
+    #logo {
+        mix-blend-mode: difference;
+    }
+
     .box-container {
         margin: 2vw;
         padding: 2vw;
@@ -345,10 +349,6 @@ body {
         flex-direction: column;
         overflow-y: auto;
         gap: 100px;
-    }
-    
-    .logo {
-        mix-blend-mode: difference;
     }
     
     .social-links {
