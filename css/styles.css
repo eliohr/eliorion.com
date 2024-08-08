@@ -3,6 +3,10 @@ body {
     margin: 0;
 }
 
+#logo {
+    mix-blend-mode: difference;
+}
+
 .about {
     color: white;
     font-family: "Helvetica Neue", sans-serif;
@@ -10,6 +14,13 @@ body {
     justify-content: left;
     margin-left: 50px;
     margin-right: 50px;
+}
+
+.about-link {
+    color: white;
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: none;
 }
 
 .box {
@@ -20,6 +31,10 @@ body {
     min-width: 300px;
     position: relative;
     text-align: center;
+}
+
+.box-container {
+    align-items: center;
 }
 
 .box-container-container {
@@ -37,12 +52,17 @@ body {
     margin-top: 2vw;
     text-align: center;
     text-decoration: none;
+    text-align: center;
 }
 
 .hyperfollow {
     font-family: Helvetica Neue;
     font-style: italic;
     text-decoration: none;
+}
+
+.hyperfollow a {
+    mix-blend-mode: difference;
 }
 
 .image-container {
@@ -52,26 +72,31 @@ body {
 }
 
 .img1 {
-    background-image: url('../media/images/eli-orion-guitar-fisheye.jpeg');
-    background-position: center top;
-}
-
-.img2 {
-    background-image: url('../media/images/eli-orion-leaves-sing.jpeg');
-}
-
-.img3 {
-    background-image: url('../media/images/eli-orion-overlook.jpeg');
-    background-position: center top;
-}
-
-.img5 {
     background-image: url('../media/images/eli-orion-fiddle-rocks.jpeg');
     background-position: center top;
 }
 
-.img6 {
+.img2 {
+    background-image: url('../media/images/eli-orion-guitar-fisheye.jpeg');
+    background-position: center top;
+}
+
+.img3 {
+    background-image: url('../media/images/eli-orion-lay-log.jpeg');
+}
+
+.img4 {
+    background-image: url('../media/images/eli-orion-leaves-sing.jpeg');
+    background-position: center top;
+}
+
+.img5 {
     background-image: url('../media/images/eli-orion-low-perspective.jpeg');
+    background-position: center top;
+}
+
+.img6 {
+    background-image: url('../media/images/eli-orion-overlook.jpeg');
     background-position: center top;
 }
 
@@ -98,6 +123,12 @@ body {
     width: auto;
 }
 
+.mailto {
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
 .random-letters {
     color: white;
     font-family: Helvetica Neue;
@@ -109,12 +140,6 @@ body {
     transition: left 0.5s, top 0.5s;
     left: 10px;
     top: 300px;
-}
-
-.mailto {
-    color: white;
-    font-weight: 400;
-    text-decoration: none;
 }
 
 .small-spacer {
@@ -160,15 +185,14 @@ body {
     min-width: 300px;
 }
 
-@media (max-width: 499px) {
+@media (max-width: 749px) {
+    
     #logo {
         width: 1in;
         height: 0.5in;
-        mix-blend-mode: difference;
     }
 
     .box-container {
-        align-items: center;
         display: flex;
         justify-content: center;
         max-height: 300px;
@@ -182,7 +206,6 @@ body {
 
     .gohome {
         font-size: 4vw;
-        text-align: center;
     }
 
     .hyperfollow {
@@ -195,13 +218,11 @@ body {
     .hyperfollow a {
         background-color: white;
         color: black;
-        mix-blend-mode: difference;
         text-align: left;
     }
 
-    .img4 {
+    .img3 {
         background-image: url('../media/images/eli-orion-lay-log-vertical.jpeg');
-        background-position: center top;
     }
 
     .listen {
@@ -215,18 +236,7 @@ body {
     }
 
     .social-links {
-        display: flex;
-        flex-wrap: wrap;
-        gap: .8vw;
-        justify-content: center;
-        justify-self: left;
-    }
-
-    .social-links a {
-        color: black;
-        padding: 1.5vw;
-        text-align: center;
-        text-decoration: none;
+        display: none;
     }
 
     .social-links-mobile {
@@ -283,25 +293,28 @@ body {
         min-width: 300px;
         width: 40vw;
     }
+
 }
 
-@media (min-width: 500px) {
+@media (min-width: 750px) {
+
     #logo {
-        mix-blend-mode: difference;
+        height: 100%;
+        justify-self: right;
+        width: 20vw;
     }
 
     .box-container {
-        margin: 2vw;
-        padding: 2vw;
-        font-size: 2vw;
-        text-align: center;
         display: flex;
-        justify-items: center;
-        align-items: center;
+        font-size: 2vw;
         height: 20vw;
-        width: 20vw;
+        justify-items: center;
+        margin: 2vw;
         min-height: 300px;
         min-width: 300px;
+        padding: 2vw;
+        text-align: center;
+        width: 20vw;
     }
     
     .box-container-container {
@@ -310,7 +323,6 @@ body {
     
     .gohome {
         font-size: 2vw;
-        text-align: center;
     }
     
     .hyperfollow {
@@ -318,15 +330,9 @@ body {
         letter-spacing: 1vw;
         padding: 20px;
     }
-    
+
     .hyperfollow a {
         color: white;
-        mix-blend-mode: difference;
-    }
-    
-    .img4 {
-        background-image: url('../media/images/eli-orion-lay-log.jpeg');
-        background-position: center top;
     }
     
     .listen {
@@ -340,49 +346,49 @@ body {
     }
 
     .listen-tall {
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        height: 100vh;
+        overflow-y: auto;
         position: absolute;
         right: 0;
         top: 0;
-        bottom: 0;
-        height: 100vh; /* Ensure it takes the full height of the viewport */
-        display: flex;
-        flex-direction: column;
-        overflow-y: auto;
-        gap: 100px;
     }
-    
+
     .social-links {
         display: flex;
         flex-wrap: wrap;
+        gap: .6vw;
         justify-content: center;
-        gap: .8vw;
         justify-self: left;
     }
-    
+
     .social-links a {
         color: white;
-        padding: 1.5vw;
-        height: 100%;
-        text-decoration: none;
-        text-align: center;
         font-size: 1.5vw;
+        height: 100%;
         mix-blend-mode: difference;
+        padding: 1.5vw;
+        text-align: center;
+        text-decoration: none;
     }
-    
+
     .social-links-mobile {
         display: none;
     }
-    
+
     .top {
         background-position: center top -12vw;
     }
     
     .top-desktop {
-        display: flex;
-        justify-content: space-between;
         align-items: center;
-        padding: 20px;
+        display: flex;
         height: 10vw;
+        justify-content: space-between;
+        padding: 20px;
     }
     
     .top-mobile {
@@ -392,13 +398,7 @@ body {
     .top-spacer {
         height: 30vw;
     }
-    
-    #logo {
-        width: 20vw;
-        height: 100%;
-        justify-self: right;
-        mix-blend-mode: difference;
-    }
+
 }
 
 footer {

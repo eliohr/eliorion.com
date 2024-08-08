@@ -1,169 +1,204 @@
+body {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    justify-self: center;
+    margin: 0;
+}
+
+.align-right {
+    margin: 0;
+    text-align: right;
+}
+
+.by {
+    font-family: 'Helvetica Neue';
+    width: 100%;
+    justify-self: center;
+    font-size: 3vw;
+    letter-spacing: 2vw;
+    color: black;
+    background-color: white;
+    text-align: right;
+    text-decoration: none;
+    font-style: italic;
+    mix-blend-mode: difference;
+}
+
+.cover-art {
+    width: 100%;
+    height: 100%;
+}
+
+.cover-art-container {
+    margin: 2vw;
+}
+
+.description {
+    font-family: "Times New Roman";
+    font-weight: 200;
+    font-style: italic;
+    text-align: justify;
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: difference;
+}
+
+.description-container {
+    margin: 2vw;
+}
+
+.dnd {
+    margin: 2vw;
+    font-family: 'Times New Roman';
+    mix-blend-mode: difference;
+}
+
+.entire-container {
+    box-sizing: border-box;
+    display: flex;
+}
+
+.image-link {
+    width: 100%;
+}
+
+.images-container {
+    display: flex;
+}
+
+.images-container img {
+    width: 100%;
+    margin-top: -0.7vw;
+}
+
+.mailto {
+    color: white;
+    font-weight: 600;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.more-pictures {
+    background-color: white;
+    color: black;
+    font-family: 'Helvetica Neue';
+    font-size: 4vw;
+    letter-spacing: .005vw;
+    margin: 6vw;
+}
+
+.title {
+    font-family: 'Helvetica Neue';
+    width: 100%;
+    justify-self: center;
+    font-size: 3vw;
+    letter-spacing: 2vw;
+    color: black;
+    background-color: white;
+    text-align: left;
+    text-decoration: none;
+    font-style: italic;
+    mix-blend-mode: difference;
+}
+
 @media (max-width: 749px) {
 
-    body {
-        background-color: black;
-        background-size: cover;
-        background-repeat: no-repeat;
-        margin: 0;
-        justify-self: center;
-        justify-content: center;
+    .cover-art {
+        width: 90vw;
+    }
+
+    .cover-art-container {
+        box-sizing: border-box;
+        order: 1;
+    }
+
+    .description {
+        box-sizing: border-box;
+        color: black;
+        background-color: white;
+        font-size: 3vw;
+        justify-self: left;
+        letter-spacing: .15vw;
+        line-height: 4.1vw;
+        order: 4;
+        padding: 1vw;
+    }
+
+    .description-container {
+        box-sizing: border-box;
+        height: auto;
+        order: 4;
+        width: 90vw;
     }
 
     .desktop-links {
         display: none;
     }
 
-    .images-container {
-        background-color: black;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .images-container img {
-        width: 100%;
-
-        margin-top: -0.7vw;
+    .dnd {
+        color: white;
+        font-size: 2vw;
+        justify-content: center;
+        letter-spacing: 1vw;
+        margin-top: none;
+        padding-left: 4.4vw;
+        padding-top: none;
     }
 
     .entire-container {
-        box-sizing: border-box;
-        display: flex;
         flex-direction: column;
+        justify-content: center;
         margin: 2vw;
         padding: 2vw;
-        justify-content: center;
     }
 
-    .cover-art-container {
-        box-sizing: border-box;
-        width: 90vw;
-        margin: 2vw;
-        order: 1;
+    .images-container {
+        flex-direction: column;
     }
 
-    .cover-art {
-        width: 100%;
-        height: 100%;
-    }
-
-    .title {
-        font-family: 'Helvetica Neue';
-        width: 100%;
-        justify-self: center;
-        font-size: 3vw;
-        letter-spacing: 2vw;
+    .mailto {
         color: black;
-        background-color: white;
-        text-align: left;
+        font-weight: 400;
+        font-weight: bold;
         text-decoration: none;
-        font-style: italic;
-        mix-blend-mode: difference;
     }
 
-    .by {
-        font-family: 'Helvetica Neue';
-        width: 100%;
-        justify-self: center;
-        font-size: 3vw;
-        letter-spacing: 2vw;
-        color: black;
-        background-color: white;
-        text-align: right;
-        text-decoration: none;
-        font-style: italic;
-        mix-blend-mode: difference;
-    }
-
-    .description-container {
-        box-sizing: border-box;
-        margin: 2vw;
-        width: 90vw;
-        height: auto;
-        order: 4;
-    }
-
-    .description {
-        box-sizing: border-box;
-        font-family: "Times New Roman";
-        font-weight: 200;
-        font-style: italic;
-        text-align: justify;
-        justify-self: left;
-        padding: 1vw;
-        color: black;
-        background-color: white;
-        font-size: 3vw;
-        letter-spacing: .15vw;
-        line-height: 4.1vw;
-        width: 100%;
-        height: 100%;
-        order: 4;
-        mix-blend-mode: difference;
-    }
-
-    .mobile-links-1 {
-        justify-content: flex-end;
+    .mobile-links-1, .mobile-links-2 {
         align-self: flex-end;
-        margin-top: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5vw;
+        height: 100%;
+        justify-content: center;
+        justify-content: flex-end;
+        justify-self: left;
+        letter-spacing: -.35vw;
         margin-bottom: 2.5vw;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        justify-self: left;
-        gap: 3vw;
+        margin-top: 0;
         order: 2;
-    }
-
-    .mobile-links-2 {
-        justify-content: flex-end;
-        align-self: flex-end;
-        margin-bottom: .5vw;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        justify-self: left;
-        gap: 3vw;
-        order: 3;
-
-    }
-
-    .mobile-links-1 a {
-        color: black;
-        font-family: "Helvetica Neue";
-        padding: 1vw;
-        height: 100%;
-        text-decoration: none;
         text-align: center;
-        font-size: 4vw;
-        letter-spacing: -.3vw;
-        background-color: white;
-        mix-blend-mode: difference;
-    }
-
-    .mobile-links-2 a {
-        color: black;
         font-family: "Helvetica Neue";
-        padding: 1vw;
-        height: 100%;
-        text-decoration: none;
-        text-align: center;
         font-size: 4vw;
-        letter-spacing: -.3vw;
-        background-color: white;
-        mix-blend-mode: difference;
     }
 
-    .dnd {
-        font-size: 2vw;
-        margin: 2vw;
-        margin-top: none;
-        padding-top: none;
-        padding-left: 4.4vw;
-        color: white;
-        font-family: 'Times New Roman';
-        letter-spacing: 1vw;
-        justify-content: center;
-        mix-blend-mode: difference;
+    .mobile-links-1 a, .mobile-links-2 a {
+        background-color: white;
+        color: black;
+        margin-bottom: 1vw;
+        margin-top: 1vw;
+        padding: 1vw;
+        text-decoration: none;
+    }
+
+    .more-pictures {
+        background-color: white;
+        color: black;
+        font-family: 'Helvetica Neue';
+        font-size: 4vw;
+        letter-spacing: .005vw;
+        margin: 6vw;
     }
 
 }
@@ -171,86 +206,78 @@
 @media (min-width: 750px) {
 
     body {
-        background-color: black;
-        background-size: cover;
         background-position: center;
         height: 100vh;
-        background-repeat: no-repeat;
-        justify-content: center;
-        margin: 0;
-        justify-self: center;
-        justify-content: center;
     }
 
-    .entire-container {
-        display: flex;
-        flex-direction: row;
-        box-sizing: border-box;
-    }
-
-    .cover-art-container {
-        width: 30vw;
-        margin: 2vw;
-    }
-
-    .cover-art {
-        width: 100%;
-        height: 100%;
-    }
-
-    .title {
-        font-family: 'Helvetica Neue';
-        width: 100%;
-        justify-self: center;
-        font-size: 3vw;
-        letter-spacing: 2vw;
-        color: black;
-        background-color: white;
-        text-align: left;
-        text-decoration: none;
-        font-style: italic;
-        mix-blend-mode: difference;
-    }
-
-    .by {
-        font-family: 'Helvetica Neue';
-        width: 100%;
-        justify-self: center;
-        font-size: 3vw;
-        letter-spacing: 2vw;
-        color: black;
-        background-color: white;
-        text-align: right;
-        text-decoration: none;
-        font-style: italic;
-        mix-blend-mode: difference;
-    }
-
-    .description-container {
-        margin: 2vw;
-        width: 30vw;
-        height: 30vw;
-        padding-left: .5vw;
-        padding-right: .5vw;
-        background-color: white;
-        mix-blend-mode: difference;
+    .dnd {
+        color: white;
+        font-size: 1.5vw;
+        letter-spacing: 1.5vw;
     }
 
     .description {
-        font-family: "Times New Roman";
-        font-weight: 200;
-        font-style: italic;
-        text-align: justify;
-        justify-self: left;
-        justify-content: center;
         align-content: center;
         color: white;
         font-size: 1.1vw;
+        justify-content: center;
         letter-spacing: .05vw;
         line-height: 1.75vw;
-        width: 100%;
-        height: 100%;
+        width: 29vw;
+    }
+
+    .description-container {
+        background-color: white;
+        height: 30vw;
         mix-blend-mode: difference;
+        padding-left: .5vw;
+        padding-right: .5vw;
+        width: 30vw;
+    }
+
+    .desktop-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5.14vw;
+        justify-content: center;
+        justify-self: left;
+        margin: 2vw;
+        margin-top: 0;
+    }
+
+    .desktop-links a {
+        background-color: white;
+        color: black;
+        font-family: "Helvetica Neue";
+        font-size: 2vw;
+        height: 100%;
+        letter-spacing: -.15vw;
+        mix-blend-mode: difference;
+        padding: 1vw;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .entire-container {
+        flex-direction: row;
+    }
+
+    .images-container {
+        flex-direction: row;
+    }
+    
+    .images-container a {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 50vw;
+        width: 100%;
+    }
+
+    .images-container img {
+        height: auto;
+        max-width: 50vw;
     }
 
     .mobile-links-1 {
@@ -261,78 +288,4 @@
         display: none;
     }
 
-    .desktop-links {
-        margin: 2vw;
-        margin-top: 0;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        justify-self: left;
-        gap: 5.14vw;
-    }
-
-    .desktop-links a {
-        color: black;
-        font-family: "Helvetica Neue";
-        padding: 1vw;
-        height: 100%;
-        text-decoration: none;
-        text-align: center;
-        font-size: 2vw;
-        letter-spacing: -.15vw;
-        background-color: white;
-        mix-blend-mode: difference;
-    }
-
-    .dnd {
-        font-size: 1.5vw;
-        margin: 2vw;
-        color: white;
-        font-family: 'Times New Roman';
-        letter-spacing: 1.5vw;
-        mix-blend-mode: difference;
-    }
-
-    .images-container {
-        background-color: black;
-        display: flex;
-        flex-direction: row;
-    
-    }
-    
-    .images-container img {
-        height: 73.1vh;
-    }
-
-    .images-container a {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        max-width: 50vw;
-    }
-
-    .images-container img {
-        height: auto;
-        margin-top: -0.7vw;
-        width: 100%;
-        max-width: 50vw;
-    }
-
-}
-
-.more-pictures {
-    font-family: 'Helvetica Neue';
-    color: black;
-    background-color: white;
-    font-size: 4vw;
-    letter-spacing: .005vw;
-    margin: 6vw;
-    text-decoration: none;
-}
-
-.aaa {
-    text-align: right;
-    margin: 0;
 }
