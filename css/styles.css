@@ -150,50 +150,8 @@ body {
     top: 300px;
 }
 
-.show {
-    color: white;
-    font-family: Times New Roman;
-    margin-bottom: 50px;
-}
-
-.shows {
-    width: 80vw;
-    justify-content: center;
-    margin-left: 10%;
-}
-
-.showsheader {
-    color: white;
-    font-family: Helvetica Neue;
-    font-style: italic;
-    font-weight: 10;
-    font-size: 50px;
-    text-decoration: none;
-}
-
-.showsrsvp {
-    color: white;
-    font-family: Helvetica Neue;
-    font-weight: 1000;
-    letter-spacing: 10px;
-    font-size: 20px;
-    text-decoration: none;
-}
-
-.showdate {
-    font-variant-caps: all-small-caps;
-}
-
-.showbill {
-    font-style: italic;
-}
-
 .small-spacer {
     height: 10px;
-}
-
-.spacer {
-    height: 50px;
 }
 
 .spotify-box {
