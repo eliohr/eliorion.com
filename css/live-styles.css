@@ -32,12 +32,7 @@ body {
     }
     
     .showsheader {
-        color: white;
-        font-family: Helvetica Neue;
-        font-style: italic;
-        font-weight: 10;
-        font-size: 50px;
-        text-decoration: none;
+        font-size: 30px;
     }
     
     .showsrsvp {
@@ -81,7 +76,6 @@ body {
 @media (min-width: 750px) {
 
     .body {
-        
     overflow: hidden;
     }
 
@@ -90,7 +84,6 @@ body {
     }
 
     .show {
-
     margin: -10px;
     }
 
@@ -100,6 +93,10 @@ body {
 
     .mobile {
         visibility: hidden;
+    }
+
+    .showsheader {
+        font-size: 50px;
     }
 
     body::before {
@@ -180,12 +177,12 @@ body {
     }
 }
 
+
 .showsheader {
     color: white;
     font-family: Helvetica Neue;
     font-style: italic;
     font-weight: 10;
-    font-size: 50px;
     text-decoration: none;
 }
 
