@@ -1,4 +1,4 @@
-body {
+  body {
     background-color: #813e1f;
     margin: 0;
     justify-self: center;
@@ -71,6 +71,16 @@ body {
         background-attachment: fixed;
         opacity: 0.2;
       }
+
+      @supports (padding-top: constant(safe-area-inset-top)) {
+        body {
+            padding-top: constant(safe-area-inset-top);
+            padding-right: constant(safe-area-inset-right);
+            padding-bottom: constant(safe-area-inset-bottom);
+            padding-left: constant(safe-area-inset-left);
+        }
+    }
+    
 }
 
 @media (min-width: 750px) {
@@ -111,7 +121,6 @@ body {
         background-blend-mode: multiply;
         background-size: cover;
         background-position: center;
-        background-attachment: fixed;
         opacity: 0.2;
 
 
