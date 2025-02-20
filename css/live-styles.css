@@ -21,6 +21,11 @@ body {
     margin-left: 10%;
 }
 
+.showlink {
+    position: relative;
+    text-decoration: none;
+}
+
 .showsheader {
     color: white;
     font-family: Helvetica Neue;
