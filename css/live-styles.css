@@ -7,28 +7,35 @@ body {
 
 @media (max-width: 749px) {
 
-    #head-desktop {
+    .head {
         visibility: hidden;
     }
 
     .drawing img {
-        width: 100px;
+        width: 200px;
     }
 
     .show {
-        font-size: 8px;
+        font-size: 12px;
     }
 
+    .mobile-head a {
+        font-size: 16px;
+    }
+
+    .mobile-head h1 {
+        font-size: 24px;
+    }
 }
 
 @media (min-width: 750px) {
 
-    #head-mobile {
-        visibility: hidden;
-    }
-
     .drawing img {
         width: 500px;
+    }
+
+    .mobile-head {
+        visibility: hidden;
     }
 
 }
@@ -68,7 +75,6 @@ body::before {
 .shows {
     width: 80vw;
     justify-content: center;
-    margin-left: 10%;
 }
 
 .showlink {
@@ -82,14 +88,14 @@ body::before {
     position: absolute;
     text-decoration: none;
 
-    margin: -10px;
+    margin: -50px;
 }
 
 .drawing {
     mix-blend-mode:color-dodge;
     pointer-events: none;
 
-    margin: -10px;
+    margin: -50px;
 
     img{
         height: auto;

@@ -28,7 +28,7 @@ function setRandomColor() {
 
     var hue = Math.random() * 360;
 
-    document.body.style.backgroundColor = "hsl(" + hue + ", 61%, 31%)";
+    document.body.style.backgroundColor = "hsl(" + hue + ", 65%, 25%)";
 
 }
 
@@ -83,6 +83,9 @@ function checkOverlap(left, top, element) {
             if (overlap) return;
         }
     });
+
+    setTimeout(100);
+
     return overlap;
 }
 
