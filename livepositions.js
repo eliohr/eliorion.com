@@ -63,7 +63,7 @@ function setRandomPosition(element) {
 
     do {
         var left = Math.floor(Math.random() * (window.innerWidth - element.clientWidth - scrollbarWidth.vertical - buffer * 2)) + buffer;
-        var top = Math.floor(Math.random() * (window.innerHeight - element.clientHeight - scrollbarWidth.horizontal - buffer * 2)) + buffer;
+        var top = Math.floor(Math.random() * (window.outerHeight - element.clientHeight - scrollbarWidth.horizontal - buffer * 2)) + buffer;
     } while (checkOverlap(left, top, element));
 
     element.style.left = left + 'px';
