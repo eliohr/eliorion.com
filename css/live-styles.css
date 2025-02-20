@@ -5,6 +5,34 @@ body {
     justify-content: center;
 }
 
+@media (max-width: 749px) {
+
+    #head-desktop {
+        visibility: hidden;
+    }
+
+    .drawing img {
+        width: 100px;
+    }
+
+    .show {
+        font-size: 8px;
+    }
+
+}
+
+@media (min-width: 750px) {
+
+    #head-mobile {
+        visibility: hidden;
+    }
+
+    .drawing img {
+        width: 500px;
+    }
+
+}
+
 body::before {
     z-index: -1;
     content: "";
@@ -21,10 +49,14 @@ body::before {
     opacity: 0.1;
   }
 
-#head {
+.head {
     position: absolute;
     text-decoration: none;
     margin: 100px;
+}
+
+.centerthis {
+    text-align: center;
 }
 
 .show {
@@ -60,7 +92,6 @@ body::before {
     margin: -10px;
 
     img{
-        width: 500px;
         height: auto;
         pointer-events: none;
     }
