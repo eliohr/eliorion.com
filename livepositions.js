@@ -22,7 +22,12 @@ document.addEventListener("DOMContentLoaded", function() {
     elementsStatic.forEach(function (element) {
         setRandomPosition(element);
         element.addEventListener("click", setRandomColor);
+
+        element.addEventListener("mouseout", (event) => {
+        setRandomPosition(event.target);
     });
+    });
+
 
     setRandomColor(); // Set initial color
 
