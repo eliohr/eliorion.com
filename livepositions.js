@@ -76,11 +76,11 @@ function setRandomPositionStatic(element) {
 
     do {
         var left = Math.floor(Math.random() * (window.innerWidth - element.clientWidth - scrollbarWidth.vertical - buffer * 2)) + buffer;
-        var top = Math.floor(Math.random() * 2 * (window.innerHeight - element.clientHeight - scrollbarWidth.horizontal - buffer * 2)) + buffer;
+        var top = Math.floor(Math.random() * (window.innerHeight - element.clientHeight - scrollbarWidth.horizontal - buffer * 2)) + buffer;
     } while (checkOverlap(left, top, element));
 
-    element.style.left = left + 'px';
-    element.style.top = top + 'px';
+    element.style.left = left + Math.random * 50 + 'px';
+    element.style.top = top + Math.random * 200 + 'px';
 }
 
 function getScrollbarWidth() {
