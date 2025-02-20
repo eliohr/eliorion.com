@@ -70,7 +70,7 @@ function setRandomPosition(element) {
     element.style.top = top + 'px';
 }
 
-function setRandomPosition(element) {
+function setRandomPositionStatic(element) {
     var scrollbarWidth = getScrollbarWidth();
     var buffer = 1;
 
