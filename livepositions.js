@@ -17,6 +17,13 @@ document.addEventListener("DOMContentLoaded", function() {
         element.addEventListener("click", setRandomColor);
     });
 
+    const elementsStatic = document.querySelectorAll('.random-position-static');
+
+    elementsStatic.forEach(function (element) {
+        setRandomPosition(element);
+        element.addEventListener("click", setRandomColor);
+    });
+
     setRandomColor(); // Set initial color
 
     // ... (setRandomPosition and setRandomColor functions as shown above) ...
