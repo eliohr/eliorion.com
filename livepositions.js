@@ -17,18 +17,6 @@ document.addEventListener("DOMContentLoaded", function() {
         element.addEventListener("click", setRandomColor);
     });
 
-    const elementsStatic = document.querySelectorAll('.random-position-static');
-
-    elementsStatic.forEach(function (element) {
-        setRandomPositionStatic(element);
-        element.addEventListener("click", setRandomColor);
-
-        element.addEventListener("mouseout", (event) => {
-        setRandomPositionStatic(event.target);
-    });
-    });
-
-
     setRandomColor(); // Set initial color
 
     // ... (setRandomPosition and setRandomColor functions as shown above) ...
@@ -68,19 +56,6 @@ function setRandomPosition(element) {
 
     element.style.left = left + 'px';
     element.style.top = top + 'px';
-}
-
-function setRandomPositionStatic(element) {
-    var scrollbarWidth = getScrollbarWidth();
-    var buffer = 1;
-
-    do {
-        var left = Math.floor(Math.random() * (window.innerWidth - element.clientWidth - scrollbarWidth.vertical - buffer * 2)) + buffer;
-        var top = Math.floor(Math.random() * (window.innerHeight - element.clientHeight - scrollbarWidth.horizontal - buffer * 2)) + buffer;
-    } while (checkOverlap(left, top, element));
-
-    element.style.left = left + Math.random * 50 + 'px';
-    element.style.top = top + Math.random * 200 + 'px';
 }
 
 function getScrollbarWidth() {
@@ -127,10 +102,18 @@ function checkOverlap(left, top, element) {
     return overlap;
 }
 
+
+var elementsStatic = document.querySelectorAll('.random-position-static');
 var elements = document.querySelectorAll('.random-position');
 
 window.addEventListener('resize', function () {
     elements.forEach(function (element) {
+        setRandomPosition(element);
+    });
+});
+
+window.addEventListener('resize', function () {
+    elementsStatic.forEach(function (element) {
         setRandomPosition(element);
     });
 });
