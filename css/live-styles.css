@@ -13,6 +13,7 @@ body {
 
     .drawing {
         mix-blend-mode:screen;
+        transform:translate3d(0,0,0);
 
         img {
             width: 100px;
