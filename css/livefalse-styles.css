@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+    background-image: url('../media/images/the-everything-pointer.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    justify-self: center;
+    justify-content: center;
+}
+
+.show {
+    color: white;
+    font-family: Times New Roman;
+    margin-bottom: 50px;
+}
+
+.shows {
+    width: 80vw;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+.showsheader {
+    color: white;
+    font-family: Helvetica Neue;
+    font-style: italic;
+    font-weight: 10;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.showsrsvp {
+    color: white;
+    font-family: Helvetica Neue;
+    font-weight: 1000;
+    letter-spacing: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.showdate {
+    font-variant-caps: all-small-caps;
+}
+
+.showbill {
+    font-style: italic;
+}
+
+.spacer {
+    height: 50px;
+}
