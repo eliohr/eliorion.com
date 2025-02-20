@@ -1,12 +1,17 @@
 body {
     background-color: black;
-    background-image: url('../media/images/the-everything-pointer.jpeg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     margin: 0;
     justify-self: center;
     justify-content: center;
+}
+
+@media(max-width:749px) {
+    body {
+        background-image: url('../media/images/the-everything-pointer.jpeg');
+    }
 }
 
 .show {

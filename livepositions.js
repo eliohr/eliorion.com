@@ -1,28 +1,41 @@
 // i took a vast majority of this code straight from papercuties.art
 
+var tryCount = 0;
 document.addEventListener("DOMContentLoaded", function() {
+    let tryCount = 0; // Declare and initialize tryCount
 
-    var elements = document.querySelectorAll('.random-position');
+    const elements = document.querySelectorAll('.random-position');
 
     elements.forEach(function (element) {
-
         setRandomPosition(element);
 
         element.addEventListener("mouseout", (event) => {
             setRandomPosition(event.target);
-        }, false, );
+            tryCounter();
+        });
 
-        element.addEventListener("mouseaway", (event) => {
-            setRandomPosition(event.target);
-        }, false, );
-
-        element.addEventListener("click", setRandomColor, false); 
-
+        element.addEventListener("click", setRandomColor);
     });
 
-    setRandomColor();
+    setRandomColor(); // Set initial color
 
+    // ... (setRandomPosition and setRandomColor functions as shown above) ...
 });
+
+function tryCounter() {
+    tryCount++;
+    if (tryCount % 21 === 0) {
+        const tryMessage = document.getElementsByClassName("try")[0];
+        if (tryMessage) {
+            tryMessage.style.opacity = "1";
+            setTimeout(() => {
+                tryMessage.style.opacity = "0";
+            }, 1000);
+        }
+    }
+}
+
+// ... (setRandomPosition and setRandomColor functions as shown above) ...
 
 function setRandomColor() {
 
