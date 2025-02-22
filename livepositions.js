@@ -102,18 +102,10 @@ function checkOverlap(left, top, element) {
     return overlap;
 }
 
-
-var elementsStatic = document.querySelectorAll('.random-position-static');
 var elements = document.querySelectorAll('.random-position');
 
 window.addEventListener('resize', function () {
     elements.forEach(function (element) {
-        setRandomPosition(element);
-    });
-});
-
-window.addEventListener('resize', function () {
-    elementsStatic.forEach(function (element) {
         setRandomPosition(element);
     });
 });

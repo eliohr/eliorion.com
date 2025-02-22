@@ -5,6 +5,17 @@
     justify-content: center;
 }
 
+.gohome {
+    mix-blend-mode: lighten;
+    background-color: white;
+    color: black;
+    font-family: Helvetica Neue;
+    font-style: italic;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
 @media (max-width: 749px) {
 
     .desktop {
@@ -30,6 +41,34 @@
         justify-content: center;
         margin-left: 10%;
     }
+
+    #rise {
+        position: absolute;
+        top: -150px;
+        overflow: hidden;
+        left: 0;
+        width: 100%;
+        height: 66%;
+        padding: 0px;
+        margin: 0px;
+      }
+      
+      #rise .drawing {
+        width: 100%;
+        height: 150%;
+        overflow: hidden;
+        padding: 0px;
+        margin: 0px;
+      }
+      
+      #rise img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        padding: 0px;
+        margin: 0px;
+      }
     
     .showsheader {
         font-size: 30px;
@@ -54,30 +93,6 @@
     
     .spacer {
         height: 50px;
-    }
-
-    body::before {
-        z-index: -1;
-        content: "";
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 1vw;
-        height: 1vh;
-        background-image: url('../media/images/the-everything-pointer-gray-vertical.jpeg');
-        background-size: cover;
-        background-position: bottom center;
-        background-attachment: fixed;
-        opacity: .3;
-      }
-
-      @supports (padding-top: constant(safe-area-inset-top)) {
-        body {
-            padding-top: constant(safe-area-inset-top);
-            padding-right: constant(safe-area-inset-right);
-            padding-bottom: constant(safe-area-inset-bottom);
-            padding-left: constant(safe-area-inset-left);
-        }
     }
 
 }
@@ -131,17 +146,6 @@
         position: absolute;
       }
 
-}
-
-.gohome {
-    mix-blend-mode: lighten;
-    background-color: white;
-    color: black;
-    font-family: Helvetica Neue;
-    font-style: italic;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
 }
 
 .head {
