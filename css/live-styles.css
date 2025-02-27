@@ -41,8 +41,8 @@
             height:0px;
             visibility: hidden;
         }
-        .showsheader .one {
-            margin-top: -30px;
+        .showslist {
+            transform:translateY(-200);
         }
     }
 
