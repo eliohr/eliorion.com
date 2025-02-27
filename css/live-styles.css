@@ -41,7 +41,7 @@
             height:0px;
             visibility: hidden;
         }
-        .showslist {
+        .shows .mobile {
             transform:translateY(-200);
         }
     }
