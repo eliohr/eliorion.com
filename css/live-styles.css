@@ -44,9 +44,6 @@
         .spacermobile {
             height:20px;
         }
-        .drawing {
-            transform: translateY(200px);
-        }
     }
 
     .desktop {
