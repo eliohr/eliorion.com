@@ -29,18 +29,18 @@
     color: black;
 }
 
-@media (max-width: 450px) {
-    .spacermobile {
-        height: 50px;
-        visibility: hidden;
-    }
-}
-
 @media (max-width: 749px) {
 
     .spacermobile {
         height: 100px;
         visibility: visible;
+    }
+
+    @media (max-width: 450px) {
+        .spacermobile {
+            height: 50px;
+            visibility: hidden;
+        }
     }
 
     .desktop {
