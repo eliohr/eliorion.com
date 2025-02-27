@@ -36,13 +36,13 @@
         visibility: visible;
     }
 
+    .spacer {
+        height: 50px;
+    }
+
     @media (max-width: 450px) {
         .spacermobile {
-            height:0px;
-            visibility: hidden;
-        }
-        .shows .mobile {
-            transform:translateY(-200);
+            height:20px;
         }
     }
 
@@ -117,10 +117,6 @@
     
     .showbill {
         font-style: italic;
-    }
-    
-    .spacer {
-        height: 50px;
     }
 
 }
