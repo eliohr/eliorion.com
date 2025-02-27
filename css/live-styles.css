@@ -39,7 +39,7 @@
 @media (max-width: 749px) {
 
     .spacermobile {
-        height: 50px;
+        height: 100px;
         visibility: visible;
     }
 
@@ -117,7 +117,7 @@
     }
     
     .spacer {
-        height: 50px;
+        height: 100px;
     }
 
 }
