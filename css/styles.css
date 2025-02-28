@@ -240,6 +240,8 @@ body {
 
     .newdex-container {
         flex-direction: column;
+        width: 100%;
+        overflow: hidden;
     }
 
     .img3 {
