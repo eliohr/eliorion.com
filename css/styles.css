@@ -137,6 +137,10 @@ body {
     text-decoration: none;
 }
 
+.newdex-container {
+    overflow-x: hidden; 
+}
+
 .random-letters {
     color: white;
     font-family: Helvetica Neue;
