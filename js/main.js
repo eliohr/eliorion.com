@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', autoplayAmbience);
 // top section background selector
 function setTopBackground() {
     const top = document.querySelector('.top');
-    const randomNum = Math.floor(Math.random() * 6) + 1;
+    const randomNum = Math.floor(Math.random() * 1) + 8; // right now only image 8
     top.classList.add('img' + randomNum); 
 }
 document.addEventListener('DOMContentLoaded', setTopBackground);
