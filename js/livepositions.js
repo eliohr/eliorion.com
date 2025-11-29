@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const elements = document.querySelectorAll('.random-position');
 
     elements.forEach(function (element) {
+
         setRandomPosition(element);
 
         element.addEventListener("mouseout", (event) => {
