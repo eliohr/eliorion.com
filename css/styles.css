@@ -79,8 +79,6 @@ body {
     justify-content: center;
 }
 
-// main.js is only selecting image 8 right now
-
 .img1 {
     background-image: url('../media/images/eli-orion-fiddle-rocks.jpeg');
     background-position: center top;
